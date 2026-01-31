@@ -5,6 +5,8 @@ import {
   renderProgression
 } from "./renderer.js";
 
+<nav id="breadcrumbs" class="breadcrumbs"></nav>
+
 const gameMenu = document.querySelector(".game-selector");
 const sideMenu = document.getElementById("side-menu");
 const content = document.getElementById("content");
@@ -67,6 +69,7 @@ async function routeFromHash() {
   try {
     gameData = await loadGameData(game);
     sideMenu.hidden = false;
+    renderBreadcrumbs();     // 👈 aquí
     renderCurrentView();
   } catch (error) {
     content.innerHTML = "<p>Error cargando datos</p>";
@@ -77,3 +80,33 @@ async function routeFromHash() {
 window.addEventListener("hashchange", routeFromHash);
 window.addEventListener("load", routeFromHash);
 
+function renderBreadcrumbs() {
+  const breadcrumbs = document.getElementById("breadcrumbs");
+  if (!currentGame || !currentView) {
+    breadcrumbs.innerHTML = "";
+    return;
+  }
+
+  const gameLabel = currentGame.toUpperCase();
+  const viewLabelMap = {
+    characters: "Personajes",
+    weapons: "Armas",
+    artifacts: "Artefactos"
+  };
+
+  breadcrumbs.innerHTML = `
+    <span class="crumb clickable" data-hash="">Inicio</span>
+    <span class="separator">›</span>
+    <span class="crumb clickable" data-hash="#${currentGame}/characters">${gameLabel}</span>
+    <span class="separator">›</span>
+    <span class="crumb active">${viewLabelMap[currentView] || currentView}</span>
+  `;
+}
+
+document.addEventListener("click", (event) => {
+  const crumb = event.target.closest(".crumb.clickable");
+  if (!crumb) return;
+
+  const hash = crumb.dataset.hash;
+  location.hash = hash || "";
+});

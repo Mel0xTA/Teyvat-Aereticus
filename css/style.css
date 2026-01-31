@@ -165,3 +165,31 @@ footer {
 .side-nav button:hover {
   background-color: #2563eb;
 }
+
+.breadcrumbs {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.breadcrumbs .crumb {
+  cursor: default;
+}
+
+.breadcrumbs .clickable {
+  cursor: pointer;
+  color: #4da3ff;
+}
+
+.breadcrumbs .clickable:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs .active {
+  color: #fff;
+  font-weight: 500;
+}
+
+.breadcrumbs .separator {
+  margin: 0 6px;
+}
