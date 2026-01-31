@@ -7,7 +7,7 @@
     "role": ["Arco"],
     "attributes": {
       "element": "Pyro",
-      "weaponType": "Bow"
+      "weaponType": "Arco"
     },
     "faction": "Knights of Favonius",
     "media": {
