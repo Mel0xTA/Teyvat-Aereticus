@@ -31,3 +31,21 @@ export function renderProgression(progression) {
     document.getElementById("content").appendChild(div);
   });
 }
+
+export function renderWeapons(weapons) {
+  weapons.forEach(w => {
+    const div = document.createElement("div");
+    div.className = "equipment-card";
+    div.innerHTML = `<h2>${w.name}</h2>`;
+    document.getElementById("content").appendChild(div);
+  });
+}
+
+export function renderArtifacts(artifacts) {
+  artifacts.forEach(a => {
+    const div = document.createElement("div");
+    div.className = "equipment-card";
+    div.innerHTML = `<h2>${a.name}</h2>`;
+    document.getElementById("content").appendChild(div);
+  });
+}

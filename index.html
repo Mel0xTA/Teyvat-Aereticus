@@ -20,17 +20,21 @@
   <!-- NUEVO CONTENEDOR -->
   <div id="app">
 
-    <!-- NUEVO SELECTOR LATERAL -->
+    <!-- SELECTOR LATERAL -->
 <aside id="side-menu" hidden>
-  <div id="view-buttons">
+  <nav class="side-nav">
     <button data-view="characters">Personajes</button>
-    <button data-view="equipment">Equipamiento</button>
-    <button data-view="progression">Progresión</button>
-  </div>
 
-  <div id="character-miniatures">
-    <!-- Miniaturas se cargan dinámicamente -->
-  </div>
+    <div class="submenu">
+      <button data-view="weapons">Armas</button>
+      <button data-view="artifacts">Artefactos</button>
+    </div>
+
+    <!-- ampliable -->
+    <!--
+    <button data-view="progression">Progresión</button>
+    -->
+  </nav>
 </aside>
 
     <!-- SE MANTIENE -->

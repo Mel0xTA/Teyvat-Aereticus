@@ -10,7 +10,7 @@ const sideMenu = document.getElementById("side-menu");
 const content = document.getElementById("content");
 
 let currentGame = null;
-let currentView = "characters";
+let currentView = null;
 let gameData = null;
 
 gameMenu.addEventListener("click", async (event) => {
@@ -55,35 +55,15 @@ function renderCurrentView() {
       renderCharacters(gameData.characters);
       break;
 
-    case "equipment":
-      renderEquipment(gameData.equipment);
+    case "weapons":
+      renderWeapons(gameData.weapons);
       break;
 
-    case "progression":
-      renderProgression(gameData.progression);
+    case "artifacts":
+      renderArtifacts(gameData.artifacts);
       break;
+
+    default:
+      content.innerHTML = "<p>Vista no disponible</p>";
   }
-}
-
-function renderCharacterMiniatures(characters) {
-  const container = document.getElementById("character-miniatures");
-  container.innerHTML = "";
-
-  characters.forEach(char => {
-    const div = document.createElement("div");
-    div.className = "character-mini";
-    div.dataset.charId = char.id;
-
-    div.innerHTML = `
-      <img src="${char.media.portrait}" alt="${char.name}">
-      <span>${char.name}</span>
-    `;
-
-    div.addEventListener("click", () => {
-      // Al hacer clic, renderiza solo ese personaje en la vista principal
-      renderCharacters([char]);
-    });
-
-    container.appendChild(div);
-  });
 }
