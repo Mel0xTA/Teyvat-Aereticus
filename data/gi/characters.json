@@ -208,5 +208,290 @@
     "media": {
       "portrait": "assets/images/klee.png"
     }
+  },
+    {
+    "id": "xiangling",
+    "name": "Xiangling",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Lanza"],
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/xiangling.png"
+    }
+  },
+    {
+    "id": "keching",
+    "name": "Keching",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Espada"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/keching.png"
+    }
+  },
+    {
+    "id": "ninguang",
+    "name": "Ninguang",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Catalizador"],
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/ninguang.png"
+    }
+  },
+    {
+    "id": "beidou",
+    "name": "Beidou",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Mandoble"],
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/beidou.png"
+    }
+  },
+    {
+    "id": "qiqi",
+    "name": "Qiqi",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/qiqi.png"
+    }
+  },
+    {
+    "id": "xingchiu",
+    "name": "Xingchiu",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/xingchiu.png"
+    }
+  },
+    {
+    "id": "chongyun",
+    "name": "Chongyun",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Mandoble"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/chongyun.png"
+    }
+  },
+    {
+    "id": "diona",
+    "name": "Diona",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Arco"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Arco"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/diona.png"
+    }
+  },
+    {
+    "id": "tartaglia",
+    "name": "Tartaglia",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Arco"],
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Arco"
+    },
+    "region": "Snezhnaya",
+    "media": {
+      "portrait": "assets/images/tartaglia.png"
+    }
+  },
+    {
+    "id": "xinyan",
+    "name": "Xinyan",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Mandoble"],
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/xinyan.png"
+    }
+  },
+    {
+    "id": "zhongli",
+    "name": "Zhongli",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Lanza"],
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/zhongli.png"
+    }
+  },
+    {
+    "id": "albedo",
+    "name": "Albedo",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/albedo.png"
+    }
+  },
+    {
+    "id": "ganyu",
+    "name": "Ganyu",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Arco"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Arco"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/ganyu.png"
+    }
+  },
+    {
+    "id": "xiao",
+    "name": "Xiao",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Lanza"],
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/xiao.png"
+    }
+  },
+    {
+    "id": "hu-tao",
+    "name": "Hu Tao",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Lanza"],
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/hu-tao.png"
+    }
+  },
+    {
+    "id": "rosaria",
+    "name": "Rosaria",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Lanza"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/Rosaria.png"
+    }
+  },
+    {
+    "id": "yanfei",
+    "name": "Yanfei",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Catalizador"],
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/yanfei.png"
+    }
+  },
+    {
+    "id": "eula",
+    "name": "Eula",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Mandoble"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/eula.png"
+    }
+  },
+    {
+    "id": "kaedehara-kazuha",
+    "name": "Kaedehara Kazuha",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/kaedehara-kazuha.png"
+    }
   }
 ]
