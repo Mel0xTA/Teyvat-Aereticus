@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+header {
+  padding: 1rem;
+  background-color: #020617;
+}
+
+nav button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 1rem;
+}
