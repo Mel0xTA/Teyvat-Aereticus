@@ -1,21 +1,88 @@
-body {
+/* Reset básico */
+* {
   margin: 0;
-  font-family: system-ui, Arial, sans-serif;
-  background-color: #0f172a;
-  color: #e5e7eb;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.5;
+  padding: 20px;
 }
 
 header {
-  padding: 1rem;
-  background-color: #020617;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-nav button {
-  margin-right: 0.5rem;
-  padding: 0.5rem 1rem;
+header h1 {
+  margin-bottom: 10px;
+}
+
+.game-selector button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #1e40af;
+  color: white;
   cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
 }
 
-main {
-  padding: 1rem;
+.game-selector button:hover {
+  background-color: #2563eb;
+}
+
+/* Contenedor de contenido */
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Tarjeta de personaje */
+.character-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 280px;
+  padding: 15px;
+  text-align: center;
+}
+
+.character-card img.portrait {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Skills */
+.skills-container, .progression-container, .equipment-container {
+  margin-top: 10px;
+}
+
+.skill, .progression-level, .equipment-card {
+  background-color: #eef2ff;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+/* Tooltips simples */
+.skill[title], .progression-level p, .equipment-card ul li {
+  cursor: default;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.85em;
+  color: #555;
 }

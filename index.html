@@ -2,24 +2,31 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teyvat Aereticus</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+    <h1>Teyvat Aereticus</h1>
+    <div class="game-selector">
+      <button id="btn-gi">Genshin Impact</button>
+      <button id="btn-hsr">Honkai Star Rail</button>
+      <button id="btn-zzz">Zeless Zone Zero</button>
+    </div>
+  </header>
 
-<header>
-  <h1>Teyvat Aereticus</h1>
-  <nav>
-    <button data-game="gi">Genshin Impact</button>
-    <button data-game="hsr">Honkai Star Rail</button>
-    <button data-game="zzz">Zenless Zone Zero</button>
-  </nav>
-</header>
+  <main id="content">
+    <!-- El contenido dinámico se carga aquí -->
+  </main>
 
-<main id="content">
-  <p>Selecciona un juego para cargar la base de datos.</p>
-</main>
+  <footer>
+    <p>© 2026 Teyvat Aereticus | Datos cargados dinámicamente desde JSON</p>
+  </footer>
 
-<script src="js/main.js"></script>
+  <!-- Scripts -->
+  <script src="js/data-loader.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

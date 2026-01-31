@@ -1,24 +1,46 @@
-document.querySelectorAll('nav button').forEach(button => {
-  button.addEventListener('click', () => {
-    const game = button.dataset.game;
-    loadGame(game);
-  });
-});
+// main.js
 
-function loadGame(game) {
-  fetch(`data/${game}/characters.json`)
-    .then(res => res.json())
-    .then(data => renderCharacters(data))
-    .catch(err => console.error(err));
+// Variables globales
+let currentGame = 'gi'; // Valor por defecto
+let gameData = null;
+
+// Función para inicializar la web
+async function init() {
+  await loadAndRender(currentGame);
+
+  // Configurar botones de selección de juego
+  document.getElementById('btn-gi').addEventListener('click', () => switchGame('gi'));
+  document.getElementById('btn-hsr').addEventListener('click', () => switchGame('hsr'));
+  document.getElementById('btn-zzz').addEventListener('click', () => switchGame('zzz'));
 }
 
-function renderCharacters(characters) {
+// Función para cargar datos y renderizar todo
+async function loadAndRender(game) {
+  gameData = await loadGameData(game);
+  if (!gameData) {
+    document.getElementById('content').innerHTML = `<p>Error cargando datos del juego: ${game}</p>`;
+    return;
+  }
+
+  const { characters, skills, progression, equipment } = gameData;
+
+  // Render de todos los personajes
   const container = document.getElementById('content');
-  container.innerHTML = '';
+  container.innerHTML = ''; // limpiar previo
 
   characters.forEach(char => {
-    const div = document.createElement('div');
-    div.textContent = char.name;
-    container.appendChild(div);
+    const charSkills = getCharacterSkills(skills, char.id);
+    const charProg = getCharacterProgression(progression, char.id);
+    const charEquip = getEquipmentByRole(equipment, char.role[0] || '');
+    renderCharacterFull(char, charSkills, charProg, charEquip);
   });
 }
+
+// Cambiar de juego
+async function switchGame(game) {
+  currentGame = game;
+  await loadAndRender(currentGame);
+}
+
+// Iniciar la web
+window.addEventListener('DOMContentLoaded', init);
