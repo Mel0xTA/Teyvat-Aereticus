@@ -13,38 +13,21 @@ let currentGame = null;
 let currentView = null;
 let gameData = null;
 
-gameMenu.addEventListener("click", async (event) => {
+gameMenu.addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button) return;
 
   const game = button.dataset.game;
-  if (!game) return;
-
-  currentGame = game;
-  currentView = "characters";
-
-  content.innerHTML = "<p>Cargando datos...</p>";
-
-  try {
-    gameData = await loadGameData(game);
-    sideMenu.hidden = false;
-    renderCharacterMiniatures(gameData.characters); // <-- Miniaturas
-    renderCurrentView();
-  } catch (error) {
-    content.innerHTML = "<p>Error cargando datos</p>";
-    console.error(error);
-  }
+  location.hash = `#${game}/characters`;
 });
+
 
 sideMenu.addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button) return;
 
   const view = button.dataset.view;
-  if (!view) return;
-
-  currentView = view;
-  renderCurrentView();
+  location.hash = `#${currentGame}/${view}`;
 });
 
 function renderCurrentView() {
@@ -67,3 +50,30 @@ function renderCurrentView() {
       content.innerHTML = "<p>Vista no disponible</p>";
   }
 }
+
+
+async function routeFromHash() {
+  const hash = location.hash.replace("#", "");
+  if (!hash) return;
+
+  const [game, view] = hash.split("/");
+  if (!game || !view) return;
+
+  currentGame = game;
+  currentView = view;
+
+  content.innerHTML = "<p>Cargando datos...</p>";
+
+  try {
+    gameData = await loadGameData(game);
+    sideMenu.hidden = false;
+    renderCurrentView();
+  } catch (error) {
+    content.innerHTML = "<p>Error cargando datos</p>";
+    console.error(error);
+  }
+}
+
+window.addEventListener("hashchange", routeFromHash);
+window.addEventListener("load", routeFromHash);
+
