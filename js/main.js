@@ -1,11 +1,11 @@
 import { loadGameData } from "./data-loader.js";
 import {
   renderCharacters,
-  renderEquipment,
-  renderProgression
+  renderWeapons,
+  renderArtifacts
 } from "./renderer.js";
 
-<nav id="breadcrumbs" class="breadcrumbs"></nav>
+import { renderEntityDetail } from "./renderer.js";
 
 const gameMenu = document.querySelector(".game-selector");
 const sideMenu = document.getElementById("side-menu");
@@ -13,6 +13,7 @@ const content = document.getElementById("content");
 
 let currentGame = null;
 let currentView = null;
+let currentEntityId = null;
 let gameData = null;
 
 gameMenu.addEventListener("click", (event) => {
@@ -33,21 +34,30 @@ sideMenu.addEventListener("click", (event) => {
 });
 
 function renderCurrentView() {
+  content.innerHTML = "";
+
   if (currentEntityId) {
-    renderEntityDetail(getCurrentEntity());
+    const entity = getCurrentEntity();
+    if (!entity) {
+      content.innerHTML = "<p>Entidad no encontrada</p>";
+      return;
+    }
+    renderEntityDetail(entity);
     return;
   }
 
-  if (currentView === "characters") {
-    renderCharacters(gameData.characters);
-  }
-
-  if (currentView === "weapons") {
-    renderWeapons(gameData.weapons);
-  }
-
-  if (currentView === "artifacts") {
-    renderArtifacts(gameData.artifacts);
+  switch (currentView) {
+    case "characters":
+      renderCharacters(gameData.characters, currentGame);
+      break;
+    case "weapons":
+      renderWeapons(gameData.weapons);
+      break;
+    case "artifacts":
+      renderArtifacts(gameData.artifacts);
+      break;
+    default:
+      content.innerHTML = "<p>Vista no disponible</p>";
   }
 }
 
@@ -134,14 +144,11 @@ function getCurrentEntity() {
   if (currentView === "characters") {
     return gameData.characters.find(c => c.id === currentEntityId);
   }
-
   if (currentView === "weapons") {
     return gameData.weapons.find(w => w.id === currentEntityId);
   }
-
   if (currentView === "artifacts") {
     return gameData.artifacts.find(a => a.id === currentEntityId);
   }
-
   return null;
 }
