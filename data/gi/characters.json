@@ -4,14 +4,13 @@
     "name": "Amber",
     "game": "gi",
     "rarity": 4,
-    "role": ["Arco"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Arco"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/amber.png"
+      "portrait": "assets/images/GI/amber.png"
     }
   },
     {
@@ -19,14 +18,13 @@
     "name": "Kaeya",
     "game": "gi",
     "rarity": 4,
-    "role": ["Espada"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Espada"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/kaeya.png"
+      "portrait": "assets/images/GI/kaeya.png"
     }
   },
     {
@@ -34,14 +32,13 @@
     "name": "Lisa",
     "game": "gi",
     "rarity": 4,
-    "role": ["Catalizador"],
     "attributes": {
       "element": "Electro",
       "weaponType": "Catalizador"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/lisa.png"
+      "portrait": "assets/images/GI/lisa.png"
     }
   },
     {
@@ -49,14 +46,13 @@
     "name": "Jean",
     "game": "gi",
     "rarity": 5,
-    "role": ["Espada"],
     "attributes": {
       "element": "Anemo",
       "weaponType": "Espada"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/jean.png"
+      "portrait": "assets/images/GI/jean.png"
     }
   },
     {
@@ -64,14 +60,13 @@
     "name": "Diluc",
     "game": "gi",
     "rarity": 5,
-    "role": ["Mandoble"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Mandoble"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/diluc.png"
+      "portrait": "assets/images/GI/diluc.png"
     }
   },
     {
@@ -79,14 +74,13 @@
     "name": "Bárbara",
     "game": "gi",
     "rarity": 4,
-    "role": ["Catalizador"],
     "attributes": {
       "element": "Hydro",
       "weaponType": "Catalizador"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/barbara.png"
+      "portrait": "assets/images/GI/barbara.png"
     }
   },
     {
@@ -94,14 +88,13 @@
     "name": "Noelle",
     "game": "gi",
     "rarity": 4,
-    "role": ["Mandoble"],
     "attributes": {
       "element": "Geo",
       "weaponType": "Mandoble"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/noelle.png"
+      "portrait": "assets/images/GI/noelle.png"
     }
   },
     {
@@ -109,14 +102,13 @@
     "name": "Sacarosa",
     "game": "gi",
     "rarity": 4,
-    "role": ["Catalizador"],
     "attributes": {
       "element": "Anemo",
       "weaponType": "Catalizador"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/sucrose.png"
+      "portrait": "assets/images/GI/sucrose.png"
     }
   },
     {
@@ -124,14 +116,13 @@
     "name": "Razor",
     "game": "gi",
     "rarity": 4,
-    "role": ["Mandoble"],
     "attributes": {
       "element": "Electro",
       "weaponType": "Mandoble"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/razor.png"
+      "portrait": "assets/images/GI/razor.png"
     }
   },
     {
@@ -139,14 +130,13 @@
     "name": "bennett",
     "game": "gi",
     "rarity": 4,
-    "role": ["Espada"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Espada"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/bennett.png"
+      "portrait": "assets/images/GI/bennett.png"
     }
   },
     {
@@ -154,14 +144,13 @@
     "name": "Fischl",
     "game": "gi",
     "rarity": 4,
-    "role": ["Arco"],
     "attributes": {
       "element": "Electro",
       "weaponType": "Arco"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/fischl.png"
+      "portrait": "assets/images/GI/fischl.png"
     }
   },
     {
@@ -169,14 +158,13 @@
     "name": "Mona",
     "game": "gi",
     "rarity": 5,
-    "role": ["Catalizador"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Catalizador"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/mona.png"
+      "portrait": "assets/images/GI/mona.png"
     }
   },
     {
@@ -184,14 +172,13 @@
     "name": "Venti",
     "game": "gi",
     "rarity": 5,
-    "role": ["Arco"],
     "attributes": {
       "element": "Anemo",
       "weaponType": "Arco"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/venti.png"
+      "portrait": "assets/images/GI/venti.png"
     }
   },
     {
@@ -199,14 +186,13 @@
     "name": "Klee",
     "game": "gi",
     "rarity": 5,
-    "role": ["Catalizador"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Catalizador"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/klee.png"
+      "portrait": "assets/images/GI/klee.png"
     }
   },
     {
@@ -214,14 +200,13 @@
     "name": "Xiangling",
     "game": "gi",
     "rarity": 4,
-    "role": ["Lanza"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Lanza"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/xiangling.png"
+      "portrait": "assets/images/GI/xiangling.png"
     }
   },
     {
@@ -229,14 +214,13 @@
     "name": "Keching",
     "game": "gi",
     "rarity": 5,
-    "role": ["Espada"],
     "attributes": {
       "element": "Electro",
       "weaponType": "Espada"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/keching.png"
+      "portrait": "assets/images/GI/keching.png"
     }
   },
     {
@@ -244,14 +228,13 @@
     "name": "Ninguang",
     "game": "gi",
     "rarity": 4,
-    "role": ["Catalizador"],
     "attributes": {
       "element": "Geo",
       "weaponType": "Catalizador"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/ninguang.png"
+      "portrait": "assets/images/GI/ninguang.png"
     }
   },
     {
@@ -259,14 +242,13 @@
     "name": "Beidou",
     "game": "gi",
     "rarity": 4,
-    "role": ["Mandoble"],
     "attributes": {
       "element": "Electro",
       "weaponType": "Mandoble"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/beidou.png"
+      "portrait": "assets/images/GI/beidou.png"
     }
   },
     {
@@ -274,14 +256,13 @@
     "name": "Qiqi",
     "game": "gi",
     "rarity": 5,
-    "role": ["Espada"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Espada"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/qiqi.png"
+      "portrait": "assets/images/GI/qiqi.png"
     }
   },
     {
@@ -289,14 +270,13 @@
     "name": "Xingchiu",
     "game": "gi",
     "rarity": 4,
-    "role": ["Espada"],
     "attributes": {
       "element": "Hydro",
       "weaponType": "Espada"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/xingchiu.png"
+      "portrait": "assets/images/GI/xingchiu.png"
     }
   },
     {
@@ -304,14 +284,13 @@
     "name": "Chongyun",
     "game": "gi",
     "rarity": 4,
-    "role": ["Mandoble"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Mandoble"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/chongyun.png"
+      "portrait": "assets/images/GI/chongyun.png"
     }
   },
     {
@@ -319,14 +298,13 @@
     "name": "Diona",
     "game": "gi",
     "rarity": 4,
-    "role": ["Arco"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Arco"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/diona.png"
+      "portrait": "assets/images/GI/diona.png"
     }
   },
     {
@@ -334,14 +312,13 @@
     "name": "Tartaglia",
     "game": "gi",
     "rarity": 5,
-    "role": ["Arco"],
     "attributes": {
       "element": "Hydro",
       "weaponType": "Arco"
     },
     "region": "Snezhnaya",
     "media": {
-      "portrait": "assets/images/tartaglia.png"
+      "portrait": "assets/images/GI/tartaglia.png"
     }
   },
     {
@@ -349,14 +326,13 @@
     "name": "Xinyan",
     "game": "gi",
     "rarity": 4,
-    "role": ["Mandoble"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Mandoble"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/xinyan.png"
+      "portrait": "assets/images/GI/xinyan.png"
     }
   },
     {
@@ -364,14 +340,13 @@
     "name": "Zhongli",
     "game": "gi",
     "rarity": 5,
-    "role": ["Lanza"],
     "attributes": {
       "element": "Geo",
       "weaponType": "Lanza"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/zhongli.png"
+      "portrait": "assets/images/GI/zhongli.png"
     }
   },
     {
@@ -379,14 +354,13 @@
     "name": "Albedo",
     "game": "gi",
     "rarity": 5,
-    "role": ["Espada"],
     "attributes": {
       "element": "Geo",
       "weaponType": "Espada"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/albedo.png"
+      "portrait": "assets/images/GI/albedo.png"
     }
   },
     {
@@ -394,14 +368,13 @@
     "name": "Ganyu",
     "game": "gi",
     "rarity": 5,
-    "role": ["Arco"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Arco"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/ganyu.png"
+      "portrait": "assets/images/GI/ganyu.png"
     }
   },
     {
@@ -409,14 +382,13 @@
     "name": "Xiao",
     "game": "gi",
     "rarity": 5,
-    "role": ["Lanza"],
     "attributes": {
       "element": "Anemo",
       "weaponType": "Lanza"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/xiao.png"
+      "portrait": "assets/images/GI/xiao.png"
     }
   },
     {
@@ -424,14 +396,13 @@
     "name": "Hu Tao",
     "game": "gi",
     "rarity": 5,
-    "role": ["Lanza"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Lanza"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/hu-tao.png"
+      "portrait": "assets/images/GI/hu-tao.png"
     }
   },
     {
@@ -439,14 +410,13 @@
     "name": "Rosaria",
     "game": "gi",
     "rarity": 4,
-    "role": ["Lanza"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Lanza"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/Rosaria.png"
+      "portrait": "assets/images/GI/rosaria.png"
     }
   },
     {
@@ -454,14 +424,13 @@
     "name": "Yanfei",
     "game": "gi",
     "rarity": 4,
-    "role": ["Catalizador"],
     "attributes": {
       "element": "Pyro",
       "weaponType": "Catalizador"
     },
     "region": "Liyue",
     "media": {
-      "portrait": "assets/images/yanfei.png"
+      "portrait": "assets/images/GI/yanfei.png"
     }
   },
     {
@@ -469,14 +438,13 @@
     "name": "Eula",
     "game": "gi",
     "rarity": 5,
-    "role": ["Mandoble"],
     "attributes": {
       "element": "Cryo",
       "weaponType": "Mandoble"
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/eula.png"
+      "portrait": "assets/images/GI/eula.png"
     }
   },
     {
@@ -484,14 +452,727 @@
     "name": "Kaedehara Kazuha",
     "game": "gi",
     "rarity": 5,
-    "role": ["Espada"],
     "attributes": {
       "element": "Anemo",
       "weaponType": "Espada"
     },
     "region": "Inazuma",
     "media": {
-      "portrait": "assets/images/kaedehara-kazuha.png"
+      "portrait": "assets/images/GI/kaedehara-kazuha.png"
+    }
+  },
+    {
+    "id": "kamisato-ayaka",
+    "name": "Kamisato Ayaka",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/kamisato-ayaka.png"
+    }
+  },
+    {
+    "id": "sayu",
+    "name": "Sayu",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/sayu.png"
+    }
+  },
+    {
+    "id": "yoimiya",
+    "name": "Yoimiya",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Arco"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/yoimiya.png"
+    }
+  },
+    {
+    "id": "aloy",
+    "name": "Aloy",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Arco"
+    },
+    "region": "???",
+    "media": {
+      "portrait": "assets/images/GI/aloy.png"
+    }
+  },
+    {
+    "id": "kujou-sara",
+    "name": "Kujou Sara",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/kujou-sara.png"
+    }
+  },
+    {
+    "id": "raiden-shogun",
+    "name": "Raiden Shogun",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/kaedehara-kazuha.png"
+    }
+  },
+    {
+    "id": "sangonomiya-kokomi",
+    "name": "Sangonomiya Kokomi",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/sangonomiya-kokomi.png"
+    }
+  },
+    {
+    "id": "thoma",
+    "name": "Thoma",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/thoma.png"
+    }
+  },
+    {
+    "id": "gorou",
+    "name": "Gorou",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Arco"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/gorou.png"
+    }
+  },
+    {
+    "id": "arataki-itto",
+    "name": "Arataki Itto",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/arataki-itto.png"
+    }
+  },
+    {
+    "id": "yun-jin",
+    "name": "Yun Jin",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/yun-jin.png"
+    }
+  },
+    {
+    "id": "shenhe",
+    "name": "Shenhe",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/GI/shenhe.png"
+    }
+  },
+    {
+    "id": "yae-miko",
+    "name": "Yae Miko",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/yae-miko.png"
+    }
+  },
+    {
+    "id": "kamisato-ayato",
+    "name": "Kamisato Ayato",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/kamisato-ayato.png"
+    }
+  },
+    {
+    "id": "yelan",
+    "name": "Yelan",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Arco"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/GI/yelan.png"
+    }
+  },
+    {
+    "id": "kuki-shinobu",
+    "name": "Kuki Shinobu",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/kuki-shinobu.png"
+    }
+  },
+    {
+    "id": "shikanoin-heizou",
+    "name": "Shikanoin Heizou",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/shikanoin-heizou.png"
+    }
+  },
+    {
+    "id": "collei",
+    "name": "Collei",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/collei.png"
+    }
+  },
+    {
+    "id": "tignari",
+    "name": "Tignari",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/tignari.png"
+    }
+  },
+    {
+    "id": "dori",
+    "name": "Dori",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/dori.png"
+    }
+  },
+    {
+    "id": "candace",
+    "name": "Candace",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Lanza"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/candace.png"
+    }
+  },
+    {
+    "id": "cyno",
+    "name": "Cyno",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/cyno.png"
+    }
+  },
+    {
+    "id": "nilou",
+    "name": "Nilou",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/nilou.png"
+    }
+  },
+    {
+    "id": "nahida",
+    "name": "Nahida",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/nahida.png"
+    }
+  },
+    {
+    "id": "laila",
+    "name": "Laila",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/laila.png"
+    }
+  },
+    {
+    "id": "faruzan",
+    "name": "Faruzán",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/faruzan.png"
+    }
+  },
+    {
+    "id": "wanderer",
+    "name": "Don Sombrero",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/wanderer.png"
+    }
+  },
+    {
+    "id": "yaoyao",
+    "name": "Yaoyao",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/GI/yaoyao.png"
+    }
+  },
+    {
+    "id": "alhaitham",
+    "name": "Alhacén",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Espada"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/alhaitham.png"
+    }
+  },
+    {
+    "id": "dehya",
+    "name": "Dehya",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/dehya.png"
+    }
+  },
+    {
+    "id": "mika",
+    "name": "Mika",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/GI/mika.png"
+    }
+  },
+    {
+    "id": "kaveh",
+    "name": "Kaveh",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/kaveh.png"
+    }
+  },
+    {
+    "id": "baizhu",
+    "name": "Baizhu",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/GI/baizhu.png"
+    }
+  },
+    {
+    "id": "kirara",
+    "name": "Kirara",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/kirara.png"
+    }
+  },
+    {
+    "id": "lynette",
+    "name": "Lynette",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Espada"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/lynette.png"
+    }
+  },
+    {
+    "id": "lyney",
+    "name": "Lyney",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Arco"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/lyney.png"
+    }
+  },
+    {
+    "id": "freminet",
+    "name": "Freminét",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/freminet.png"
+    }
+  },
+    {
+    "id": "neuvillette",
+    "name": "Neuvillette",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/neuvillette.png"
+    }
+  },
+    {
+    "id": "wriothesley",
+    "name": "Wriothesley",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/wriothesley.png"
+    }
+  },
+    {
+    "id": "charlotte",
+    "name": "Charlotte",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/charlotte.png"
+    }
+  },
+    {
+    "id": "furina",
+    "name": "Furina",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/furina.png"
+    }
+  },
+    {
+    "id": "navia",
+    "name": "Navia",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/navia.png"
+    }
+  },
+    {
+    "id": "chevreuse",
+    "name": "Chevreuse",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/chevreuse.png"
+    }
+  },
+    {
+    "id": "gaming",
+    "name": "Gaming",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/GI/gaming.png"
+    }
+  },
+    {
+    "id": "xianyun",
+    "name": "Xianyun",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/GI/xianyun.png"
+    }
+  },
+    {
+    "id": "chiori",
+    "name": "Chiori",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/chiori.png"
+    }
+  },
+    {
+    "id": "arlecchino",
+    "name": "Arlecchino",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Snezhnaya",
+    "media": {
+      "portrait": "assets/images/GI/arlecchino.png"
+    }
+  },
+    {
+    "id": "sethos",
+    "name": "Sethos",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru",
+    "media": {
+      "portrait": "assets/images/GI/sethos.png"
+    }
+  },
+    {
+    "id": "clorinde",
+    "name": "Clorinde",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Espada"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/clorinde.png"
+    }
+  },
+    {
+    "id": "sigewinne",
+    "name": "Sigewinne",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Arco"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/sigewinne.png"
+    }
+  },
+    {
+    "id": "emilie",
+    "name": "Émilie",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Lanza"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/Emilie.png"
     }
   }
 ]
