@@ -1174,5 +1174,369 @@
     "media": {
       "portrait": "assets/images/GI/Emilie.png"
     }
+  },
+    {
+    "id": "kachina",
+    "name": "Kachina",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/kachina.png"
+    }
+  },
+    {
+    "id": "mualani",
+    "name": "Mualani",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/mualani.png"
+    }
+  },
+    {
+    "id": "kinich",
+    "name": "Kinich",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/kinich.png"
+    }
+  },
+    {
+    "id": "xilonen",
+    "name": "Xilonen",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/xilonen.png"
+    }
+  },
+    {
+    "id": "ororon",
+    "name": "Ororon",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/ororon.png"
+    }
+  },
+    {
+    "id": "chasca",
+    "name": "Chasca",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/chasca.png"
+    }
+  },
+    {
+    "id": "citlali",
+    "name": "Citlalí",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/citlali.png"
+    }
+  },
+    {
+    "id": "mavuika",
+    "name": "Mavuika",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/mavuika.png"
+    }
+  },
+    {
+    "id": "lan-yan",
+    "name": "Lan Yan",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue",
+    "media": {
+      "portrait": "assets/images/GI/lan-yan.png"
+    }
+  },
+    {
+    "id": "yumemizuki.mizuki",
+    "name": "Yumemizuki Mizuki",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma",
+    "media": {
+      "portrait": "assets/images/GI/yumemizuki-mizuki.png"
+    }
+  },
+    {
+    "id": "iansan",
+    "name": "Iansán",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/iansan.png"
+    }
+  },
+    {
+    "id": "varesa",
+    "name": "Varesa",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/varesa.png"
+    }
+  },
+    {
+    "id": "ifa",
+    "name": "Ifá",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan",
+    "media": {
+      "portrait": "assets/images/GI/ifa.png"
+    }
+  },
+    {
+    "id": "escoffier",
+    "name": "Escoffier",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza"
+    },
+    "region": "Fontaine",
+    "media": {
+      "portrait": "assets/images/GI/escoffier.png"
+    }
+  },
+    {
+    "id": "dahlia",
+    "name": "Dahlia",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/GI/dahlia.png"
+    }
+  },
+    {
+    "id": "skirk",
+    "name": "Skirk",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Calamidad Cósmica",
+    "media": {
+      "portrait": "assets/images/GI/skirk.png"
+    }
+  },
+    {
+    "id": "ineffa",
+    "name": "Ineffa",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/ineffa.png"
+    }
+  },
+    {
+    "id": "aino",
+    "name": "Aino",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/aino.png"
+    }
+  },
+    {
+    "id": "lauma",
+    "name": "Lauma",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/lauma.png"
+    }
+  },
+    {
+    "id": "flins",
+    "name": "Flins",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/flins.png"
+    }
+  },
+    {
+    "id": "nefer",
+    "name": "Néfer",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/nefer.png"
+    }
+  },
+    {
+    "id": "jahoda",
+    "name": "Jahoda",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/jahoda.png"
+    }
+  },
+    {
+    "id": "durin",
+    "name": "Durin",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/GI/durin.png"
+    }
+  },
+    {
+    "id": "colombina",
+    "name": "Colombina",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/colombina.png"
+    }
+  },
+    {
+    "id": "illuga",
+    "name": "Illuga",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Nod Krai",
+    "media": {
+      "portrait": "assets/images/GI/illuga.png"
+    }
+  },
+    {
+    "id": "zibai",
+    "name": "Zibai",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Lang Gan",
+    "media": {
+      "portrait": "assets/images/GI/zibai.png"
+    }
   }
 ]
