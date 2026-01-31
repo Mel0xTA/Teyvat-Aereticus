@@ -10,47 +10,38 @@
 
   <header>
     <h1>Teyvat Aereticus</h1>
+
+    <!-- Selector de videojuegos -->
     <div class="game-selector">
       <button data-game="gi">Genshin Impact</button>
       <button data-game="hsr">Honkai Star Rail</button>
       <button data-game="zzz">Zenless Zone Zero</button>
     </div>
-  </header>
 
-  <!-- NUEVO CONTENEDOR -->
-  <div id="app">
-
-    <!-- SELECTOR LATERAL -->
-<aside id="side-menu" hidden>
-  <nav class="side-nav">
-    <button data-view="characters">Personajes</button>
-
-    <div class="submenu">
+    <!-- MENÚ CONTEXTUAL EMERGENTE -->
+    <nav id="context-menu" class="context-menu" hidden>
+      <button data-view="characters">Personajes</button>
       <button data-view="weapons">Armas</button>
       <button data-view="artifacts">Artefactos</button>
-    </div>
+      <!-- ampliable -->
+      <!-- <button data-view="progression">Progresión</button> -->
+    </nav>
+  </header>
 
-    <!-- ampliable -->
-    <!--
-    <button data-view="progression">Progresión</button>
-    -->
-  </nav>
-
+  <!-- Breadcrumbs -->
   <nav id="breadcrumbs" class="breadcrumbs"></nav>
-  
-</aside>
 
-    <!-- SE MANTIENE -->
-    <main id="content">
-      <!-- El contenido dinámico se carga aquí -->
-    </main>
-
-  </div>
+  <!-- Contenido principal -->
+  <main id="content">
+    <!-- El contenido dinámico se carga aquí -->
+  </main>
 
   <footer>
     <p>© 2026 Teyvat Aereticus | Datos cargados dinámicamente desde JSON</p>
   </footer>
 
-  <script type="module" src="js/main.js"></script>
+  <!-- Scripts -->
+  <script type="module" src="./js/main.js"></script>
+
 </body>
 </html>

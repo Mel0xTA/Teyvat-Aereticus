@@ -8,7 +8,7 @@ import {
 import { renderEntityDetail } from "./renderer.js";
 
 const gameMenu = document.querySelector(".game-selector");
-const sideMenu = document.getElementById("side-menu");
+const contextMenu = document.getElementById("context-menu");
 const content = document.getElementById("content");
 
 let currentGame = null;
@@ -25,7 +25,7 @@ gameMenu.addEventListener("click", (event) => {
 });
 
 
-sideMenu.addEventListener("click", (event) => {
+contextMenu.addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button) return;
 
@@ -80,7 +80,7 @@ async function routeFromHash() {
 
   try {
     gameData = await loadGameData(game);
-    sideMenu.hidden = false;
+    contextMenu.hidden = false;
 
     renderBreadcrumbs();   // sigue siendo genérico
     renderCurrentView();   // decide lista vs detalle
