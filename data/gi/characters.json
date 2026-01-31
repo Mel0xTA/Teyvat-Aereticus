@@ -1,9 +1,49 @@
-[
-  {
-    "id": "amber",
-    "name": "Amber",
+{
+  "id": "amber",
+  "name": "Amber",
+  "rarity": 4,
+  "role": ["DPS"],
+  "faction": "Caballeros de Favonius",
+  "release": "2020-09-28",
+  "tags": ["starter", "bow"],
+
+  "attributes": {
     "element": "Pyro",
+    "path": null,
+    "attribute": null,
     "weapon": "Arco",
-    "rarity": 4
+    "damageType": "Fuego"
+  },
+
+  "baseStats": {
+    "hp": 793,
+    "atk": 19,
+    "def": 50,
+    "spd": null,
+    "impact": null
+  },
+
+  "progression": {
+    "maxLevel": 90,
+    "ascension": true,
+    "eidolon": null,
+    "constellation": 6,
+    "mindscape": null
+  },
+
+  "skills": {
+    "basic": "Disparo certero",
+    "skill": "Explosión de muñeco",
+    "ultimate": "Lluvia ígnea",
+    "talent": null,
+    "passives": [
+      "Exploradora experta",
+      "Disparo preciso"
+    ]
+  },
+
+  "media": {
+    "icon": "assets/images/gi/amber/icon.png",
+    "portrait": "assets/images/gi/amber/portrait.png"
   }
-]
+}
