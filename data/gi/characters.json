@@ -13,5 +13,20 @@
     "media": {
       "portrait": "assets/images/amber.png"
     }
+  },
+    {
+    "id": "kaeya",
+    "name": "Kaeya",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "faction": "Knights of Favonius",
+    "media": {
+      "portrait": "assets/images/kaeya.png"
+    }
   }
 ]
