@@ -98,7 +98,7 @@
     }
   },
     {
-    "id": "sucrose",
+    "id": "sacarosa",
     "name": "Sacarosa",
     "game": "gi",
     "rarity": 4,
@@ -108,7 +108,7 @@
     },
     "region": "Mondstatd",
     "media": {
-      "portrait": "assets/images/GI/sucrose.png"
+      "portrait": "assets/images/GI/sacarosa.png"
     }
   },
     {
@@ -127,7 +127,7 @@
   },
     {
     "id": "bennett",
-    "name": "bennett",
+    "name": "Bennett",
     "game": "gi",
     "rarity": 4,
     "attributes": {
@@ -542,7 +542,7 @@
     },
     "region": "Inazuma",
     "media": {
-      "portrait": "assets/images/GI/kaedehara-kazuha.png"
+      "portrait": "assets/images/GI/raiden-shogun.png"
     }
   },
     {
@@ -1172,7 +1172,7 @@
     },
     "region": "Fontaine",
     "media": {
-      "portrait": "assets/images/GI/Emilie.png"
+      "portrait": "assets/images/GI/emilie.png"
     }
   },
     {
