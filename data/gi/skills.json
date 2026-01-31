@@ -1,0 +1,44 @@
+{
+  "amber": {
+    "normal": {
+      "id": "attack_normal",
+      "type": "normal",
+      "name": "Ataque Normal",
+      "cooldown": null,
+      "energyCost": null,
+      "effects": [
+        {
+          "id": "normal_hit",
+          "trigger": "onHit",
+          "target": "enemy",
+          "effectType": "damage",
+          "element": "Físico",
+          "scaling": {
+            "stat": "ATQ",
+            "multiplier": [44.0, 47.0, 50.0]
+          }
+        }
+      ]
+    },
+    "skill": {
+      "id": "explosive_puppet",
+      "type": "skill",
+      "name": "Explosión de muñeco",
+      "cooldown": 15,
+      "energyCost": null,
+      "effects": [
+        {
+          "id": "puppet_damage",
+          "trigger": "onHit",
+          "target": "enemy",
+          "effectType": "damage",
+          "element": "Pyro",
+          "scaling": {
+            "stat": "ATQ",
+            "multiplier": [123.0, 132.5, 142.0]
+          }
+        }
+      ]
+    }
+  }
+}

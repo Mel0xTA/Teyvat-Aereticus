@@ -1,0 +1,27 @@
+[
+  {
+    "characterId": "amber",
+    "game": "gi",
+    "type": "constellation",
+    "maxLevel": 6,
+    "levels": [
+      {
+        "level": 1,
+        "name": "Un disparo certero",
+        "unlock": "C1",
+        "effects": [
+          {
+            "id": "charged_arrow_extra",
+            "effectType": "extraHit",
+            "skillId": "attack_normal",
+            "hits": 1,
+            "scaling": {
+              "stat": "ATQ",
+              "multiplier": [20.0]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
