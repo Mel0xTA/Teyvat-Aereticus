@@ -9,7 +9,7 @@
       "element": "Pyro",
       "weaponType": "Arco"
     },
-    "faction": "Knights of Favonius",
+    "region": "Mondstatd",
     "media": {
       "portrait": "assets/images/amber.png"
     }
@@ -24,9 +24,189 @@
       "element": "Cryo",
       "weaponType": "Espada"
     },
-    "faction": "Knights of Favonius",
+    "region": "Mondstatd",
     "media": {
       "portrait": "assets/images/kaeya.png"
+    }
+  },
+    {
+    "id": "lisa",
+    "name": "Lisa",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Catalizador"],
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/lisa.png"
+    }
+  },
+    {
+    "id": "jean",
+    "name": "Jean",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/Jean.png"
+    }
+  },
+    {
+    "id": "diluc",
+    "name": "Diluc",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Mandoble"],
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/diluc.png"
+    }
+  },
+    {
+    "id": "barbara",
+    "name": "Bárbara",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Catalizador"],
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/barbara.png"
+    }
+  },
+    {
+    "id": "noelle",
+    "name": "Noelle",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Mandoble"],
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/noelle.png"
+    }
+  },
+    {
+    "id": "sucrose",
+    "name": "Sacarosa",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Catalizador"],
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/sucrose.png"
+    }
+  },
+    {
+    "id": "razor",
+    "name": "Razor",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Mandoble"],
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/razor.png"
+    }
+  },
+    {
+    "id": "bennett",
+    "name": "bennett",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Espada"],
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/bennett.png"
+    }
+  },
+    {
+    "id": "fischl",
+    "name": "Fischl",
+    "game": "gi",
+    "rarity": 4,
+    "role": ["Arco"],
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/fischl.png"
+    }
+  },
+    {
+    "id": "mona",
+    "name": "Mona",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Catalizador"],
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/mona.png"
+    }
+  },
+    {
+    "id": "venti",
+    "name": "Venti",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Arco"],
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/venti.png"
+    }
+  },
+    {
+    "id": "klee",
+    "name": "Klee",
+    "game": "gi",
+    "rarity": 5,
+    "role": ["Catalizador"],
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstatd",
+    "media": {
+      "portrait": "assets/images/klee.png"
     }
   }
 ]
