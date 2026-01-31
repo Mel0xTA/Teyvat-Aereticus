@@ -14,21 +14,8 @@ export function renderCharacters(characters) {
 
     content.appendChild(div);
   });
-}
-
-export function renderEquipment(equipment) {
-  equipment.forEach(item => {
-    const div = document.createElement("div");
-    div.innerHTML = `<h2>${item.name}</h2>`;
-    document.getElementById("content").appendChild(div);
-  });
-}
-
-export function renderProgression(progression) {
-  progression.forEach(p => {
-    const div = document.createElement("div");
-    div.innerHTML = `<h2>${p.type}</h2>`;
-    document.getElementById("content").appendChild(div);
+  card.addEventListener("click", () => {
+  location.hash = `#${currentGame}/characters/${character.id}`;
   });
 }
 

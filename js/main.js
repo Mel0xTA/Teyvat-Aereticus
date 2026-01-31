@@ -33,44 +33,47 @@ sideMenu.addEventListener("click", (event) => {
 });
 
 function renderCurrentView() {
-  content.innerHTML = "";
+  if (currentEntityId) {
+    renderEntityDetail(getCurrentEntity());
+    return;
+  }
 
-  switch (currentView) {
-    case "characters":
-      renderCharacters(gameData.characters);
-      break;
+  if (currentView === "characters") {
+    renderCharacters(gameData.characters);
+  }
 
-    case "weapons":
-      renderWeapons(gameData.weapons);
-      break;
+  if (currentView === "weapons") {
+    renderWeapons(gameData.weapons);
+  }
 
-    case "artifacts":
-      renderArtifacts(gameData.artifacts);
-      break;
-
-    default:
-      content.innerHTML = "<p>Vista no disponible</p>";
+  if (currentView === "artifacts") {
+    renderArtifacts(gameData.artifacts);
   }
 }
+
 
 
 async function routeFromHash() {
   const hash = location.hash.replace("#", "");
   if (!hash) return;
 
-  const [game, view] = hash.split("/");
+  const parts = hash.split("/");
+  const [game, view, entityId] = parts;
+
   if (!game || !view) return;
 
   currentGame = game;
   currentView = view;
+  currentEntityId = entityId || null;
 
   content.innerHTML = "<p>Cargando datos...</p>";
 
   try {
     gameData = await loadGameData(game);
     sideMenu.hidden = false;
-    renderBreadcrumbs();     // 👈 aquí
-    renderCurrentView();
+
+    renderBreadcrumbs();   // sigue siendo genérico
+    renderCurrentView();   // decide lista vs detalle
   } catch (error) {
     content.innerHTML = "<p>Error cargando datos</p>";
     console.error(error);
@@ -94,13 +97,27 @@ function renderBreadcrumbs() {
     artifacts: "Artefactos"
   };
 
-  breadcrumbs.innerHTML = `
+  let html = `
     <span class="crumb clickable" data-hash="">Inicio</span>
     <span class="separator">›</span>
     <span class="crumb clickable" data-hash="#${currentGame}/characters">${gameLabel}</span>
     <span class="separator">›</span>
-    <span class="crumb active">${viewLabelMap[currentView] || currentView}</span>
+    <span class="crumb clickable" data-hash="#${currentGame}/${currentView}">
+      ${viewLabelMap[currentView] || currentView}
+    </span>
   `;
+
+  if (currentEntityId) {
+    const entity = getCurrentEntity();
+    if (entity) {
+      html += `
+        <span class="separator">›</span>
+        <span class="crumb active">${entity.name}</span>
+      `;
+    }
+  }
+
+  breadcrumbs.innerHTML = html;
 }
 
 document.addEventListener("click", (event) => {
@@ -110,3 +127,21 @@ document.addEventListener("click", (event) => {
   const hash = crumb.dataset.hash;
   location.hash = hash || "";
 });
+
+function getCurrentEntity() {
+  if (!gameData || !currentEntityId) return null;
+
+  if (currentView === "characters") {
+    return gameData.characters.find(c => c.id === currentEntityId);
+  }
+
+  if (currentView === "weapons") {
+    return gameData.weapons.find(w => w.id === currentEntityId);
+  }
+
+  if (currentView === "artifacts") {
+    return gameData.artifacts.find(a => a.id === currentEntityId);
+  }
+
+  return null;
+}
