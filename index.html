@@ -7,25 +7,37 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header>
     <h1>Teyvat Aereticus</h1>
-<div class="game-selector">
-  <button data-game="gi">Genshin Impact</button>
-  <button data-game="hsr">Honkai Star Rail</button>
-  <button data-game="zzz">Zenless Zone Zero</button>
-</div>
+    <div class="game-selector">
+      <button data-game="gi">Genshin Impact</button>
+      <button data-game="hsr">Honkai Star Rail</button>
+      <button data-game="zzz">Zenless Zone Zero</button>
+    </div>
   </header>
 
-  <main id="content">
-    <!-- El contenido dinámico se carga aquí -->
-  </main>
+  <!-- NUEVO CONTENEDOR -->
+  <div id="app">
+
+    <!-- NUEVO SELECTOR LATERAL -->
+    <aside id="side-menu" hidden>
+      <button data-view="characters">Personajes</button>
+      <button data-view="equipment">Equipamiento</button>
+      <button data-view="progression">Progresión</button>
+    </aside>
+
+    <!-- SE MANTIENE -->
+    <main id="content">
+      <!-- El contenido dinámico se carga aquí -->
+    </main>
+
+  </div>
 
   <footer>
     <p>© 2026 Teyvat Aereticus | Datos cargados dinámicamente desde JSON</p>
   </footer>
 
-  <!-- Scripts -->
-<script type="module" src="js/main.js"></script>
-
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>

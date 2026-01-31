@@ -14,3 +14,19 @@ export function renderCharacters(characters) {
     content.appendChild(card);
   });
 }
+
+export function renderEquipment(equipment) {
+  equipment.forEach(item => {
+    const div = document.createElement("div");
+    div.innerHTML = `<h2>${item.name}</h2>`;
+    document.getElementById("content").appendChild(div);
+  });
+}
+
+export function renderProgression(progression) {
+  progression.forEach(p => {
+    const div = document.createElement("div");
+    div.innerHTML = `<h2>${p.type}</h2>`;
+    document.getElementById("content").appendChild(div);
+  });
+}
