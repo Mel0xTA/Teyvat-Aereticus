@@ -28,6 +28,7 @@ gameMenu.addEventListener("click", async (event) => {
   try {
     gameData = await loadGameData(game);
     sideMenu.hidden = false;
+    renderCharacterMiniatures(gameData.characters); // <-- Miniaturas
     renderCurrentView();
   } catch (error) {
     content.innerHTML = "<p>Error cargando datos</p>";
@@ -62,4 +63,27 @@ function renderCurrentView() {
       renderProgression(gameData.progression);
       break;
   }
+}
+
+function renderCharacterMiniatures(characters) {
+  const container = document.getElementById("character-miniatures");
+  container.innerHTML = "";
+
+  characters.forEach(char => {
+    const div = document.createElement("div");
+    div.className = "character-mini";
+    div.dataset.charId = char.id;
+
+    div.innerHTML = `
+      <img src="${char.media.portrait}" alt="${char.name}">
+      <span>${char.name}</span>
+    `;
+
+    div.addEventListener("click", () => {
+      // Al hacer clic, renderiza solo ese personaje en la vista principal
+      renderCharacters([char]);
+    });
+
+    container.appendChild(div);
+  });
 }
