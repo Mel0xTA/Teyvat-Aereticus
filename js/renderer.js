@@ -1,17 +1,18 @@
 export function renderCharacters(characters) {
   const content = document.getElementById("content");
-  content.innerHTML = "";
+  content.innerHTML = ""; // Limpiar previo
 
   characters.forEach(char => {
-    const card = document.createElement("div");
-    card.className = "character-card";
+    const div = document.createElement("div");
+    div.className = "character-card";
 
-    card.innerHTML = `
+    div.innerHTML = `
+      <img src="${char.media.portrait}" alt="${char.name}" class="portrait">
       <h2>${char.name}</h2>
       <p>${char.attributes.element} · ${char.attributes.weaponType}</p>
     `;
 
-    content.appendChild(card);
+    content.appendChild(div);
   });
 }
 
