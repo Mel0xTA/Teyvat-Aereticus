@@ -1,4 +1,6 @@
-/* Reset básico */
+/* =========================
+   RESET Y BASE
+========================= */
 * {
   margin: 0;
   padding: 0;
@@ -13,15 +15,21 @@ body {
   padding: 20px;
 }
 
+/* =========================
+   HEADER
+========================= */
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 header h1 {
   margin-bottom: 10px;
 }
 
+/* =========================
+   SELECTOR DE JUEGO
+========================= */
 .game-selector button {
   margin: 0 5px;
   padding: 8px 12px;
@@ -30,7 +38,7 @@ header h1 {
   color: white;
   cursor: pointer;
   border-radius: 5px;
-  transition: 0.2s;
+  transition: background-color 0.2s;
 }
 
 .game-selector button:hover {
@@ -41,135 +49,54 @@ header h1 {
   background-color: #0f172a;
 }
 
-/* Contenedor de contenido */
-#content {
+/* =========================
+   MENÚ CONTEXTUAL (EMERGENTE)
+========================= */
+.context-menu {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: flex-start; /* alineación desde el inicio */
-  flex: 1; /* ocupa el espacio restante junto al lateral */
-}
-
-/* Tarjeta de personaje */
-.character-card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  width: 180px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  display: inline-block;
-}
-
-.character-card img.portrait {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 8px;
-}
-
-.character-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  transition: 0.2s;
-}
-
-#character-miniatures {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 10px;
-}
+  justify-content: center;
 
-.character-mini {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  padding: 4px;
-  border-radius: 6px;
-  transition: 0.2s;
-  background-color: #e6edff;
-}
+  margin-top: 12px;
+  padding: 10px;
 
-.character-mini:hover {
-  background-color: #d0dbff;
-}
-
-.character-mini img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 8px;
-  object-fit: cover;
-}
-
-.character-mini span {
-  font-weight: bold;
-  font-size: 0.9em;
-}
-
-
-
-/* Skills */
-.skills-container, .progression-container, .equipment-container {
-  margin-top: 10px;
-}
-
-.skill, .progression-level, .equipment-card {
   background-color: #eef2ff;
-  padding: 8px;
+  border-radius: 8px;
+
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.context-menu.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.context-menu button {
+  padding: 6px 12px;
+  border: none;
   border-radius: 6px;
-  margin-bottom: 5px;
-}
-
-/* Tooltips simples */
-.skill[title], .progression-level p, .equipment-card ul li {
-  cursor: default;
-}
-
-/* Footer */
-footer {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 0.85em;
-  color: #555;
-}
-
-#app {
-  display: flex;
-  min-height: 70vh;
-  gap: 20px; /* separa lateral de contenido */
-}
-
-.side-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.submenu {
-  margin-left: 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.side-nav button {
   background-color: #1e40af;
   color: white;
-  border: none;
-  padding: 8px 10px;
-  border-radius: 6px;
   cursor: pointer;
-  text-align: left;
+  transition: background-color 0.2s;
 }
 
-.side-nav button:hover {
+.context-menu button:hover {
   background-color: #2563eb;
 }
 
+.context-menu button.active {
+  background-color: #0f172a;
+}
+
+/* =========================
+   BREADCRUMBS
+========================= */
 .breadcrumbs {
   margin-bottom: 12px;
   font-size: 0.9rem;
@@ -190,10 +117,74 @@ footer {
 }
 
 .breadcrumbs .active {
-  color: #fff;
-  font-weight: 500;
+  color: #222;
+  font-weight: 600;
 }
 
 .breadcrumbs .separator {
   margin: 0 6px;
+}
+
+/* =========================
+   CONTENIDO PRINCIPAL
+========================= */
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+/* =========================
+   TARJETAS DE PERSONAJE
+========================= */
+.character-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.character-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.character-card img.portrait {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+/* =========================
+   SECCIONES INTERNAS (FUTURO)
+========================= */
+.skills-container,
+.progression-container,
+.equipment-container {
+  margin-top: 10px;
+}
+
+.skill,
+.progression-level,
+.equipment-card {
+  background-color: #eef2ff;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.85em;
+  color: #555;
 }
