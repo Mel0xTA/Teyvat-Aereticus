@@ -20,18 +20,28 @@ gameMenu.addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button) return;
 
+  document
+    .querySelectorAll(".game-selector button")
+    .forEach(b => b.classList.remove("active"));
+
+  button.classList.add("active");
+
   const game = button.dataset.game;
   location.hash = `#${game}/characters`;
 });
 
 
-contextMenu.addEventListener("click", (event) => {
-  const button = event.target.closest("button");
-  if (!button) return;
+if (contextMenu) {
+  contextMenu.addEventListener("click", (event) => {
+    const button = event.target.closest("button");
+    if (!button) return;
 
-  const view = button.dataset.view;
-  location.hash = `#${currentGame}/${view}`;
-});
+    if (!currentGame) return;
+
+    const view = button.dataset.view;
+    location.hash = `#${currentGame}/${view}`;
+  });
+}
 
 function renderCurrentView() {
   content.innerHTML = "";
@@ -65,6 +75,7 @@ function renderCurrentView() {
 
 async function routeFromHash() {
   const hash = location.hash.replace("#", "");
+  contextMenu.hidden = true;
   if (!hash) return;
 
   const parts = hash.split("/");

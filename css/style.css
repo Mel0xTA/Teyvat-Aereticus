@@ -37,6 +37,10 @@ header h1 {
   background-color: #2563eb;
 }
 
+.game-selector button.active {
+  background-color: #0f172a;
+}
+
 /* Contenedor de contenido */
 #content {
   display: flex;
