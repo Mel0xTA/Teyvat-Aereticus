@@ -131,10 +131,10 @@ function getVisionPath(character) {
 
   if (region === "fontaine") {
     const arkhe = normalizeText(character.attributes?.arkhe || "pneuma");
-    return `assets/images/GI/vision/${element}-${region}-${arkhe}.png`;
+    return `assets/images/gi/vision/${element}-${region}-${arkhe}.png`;
   }
 
-  return `assets/images/GI/vision/${element}-${region}.png`;
+  return `assets/images/gi/vision/${element}-${region}.png`;
 }
 
 // =========================
