@@ -1,0 +1,283 @@
+/* =========================
+   RESET Y BASE
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #2c2f33;
+  color: #ddd;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* =========================
+   SELECTOR DE JUEGO
+========================= */
+.game-selector button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #7289da;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.game-selector button:hover {
+  background-color: #5b6eae;
+}
+
+.game-selector button.active {
+  background-color: #23272a;
+}
+
+/* =========================
+   MENÚ CONTEXTUAL
+========================= */
+.context-menu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #23272a;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.context-menu.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.context-menu button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #7289da;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.context-menu button:hover {
+  background-color: #5b6eae;
+}
+
+.context-menu button.active {
+  background-color: #23272a;
+}
+
+/* =========================
+   BREADCRUMBS
+========================= */
+.breadcrumbs {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.breadcrumbs .crumb {
+  cursor: default;
+}
+
+.breadcrumbs .clickable {
+  cursor: pointer;
+  color: #4da3ff;
+}
+
+.breadcrumbs .clickable:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs .active {
+  color: #fff;
+  font-weight: 600;
+}
+
+.breadcrumbs .separator {
+  margin: 0 6px;
+}
+
+/* =========================
+   MENÚ DE SELECCIÓN DE PERSONAJES
+========================= */
+#content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+  gap: 16px; /* misma separación vertical y horizontal */
+  justify-items: center;
+  align-items: start;
+  padding: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  #content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  #content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   TARJETA DE PERSONAJE
+========================= */
+.character-card {
+  background-color: #23272a;
+  border-radius: 12px;
+  width: 100%; 
+  max-width: 360px;
+  padding: 16px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.8);
+  background-color: #2c2f38;
+}
+
+.character-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+/* =========================
+   CONTENEDOR PORTRAIT
+   para rareza
+========================= */
+.portrait-container {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;   /* mantiene forma circular */
+  background-color: #3a3d44; /* color de fondo del portrait */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Portrait */
+.portrait-container img.portrait {
+  width: 240px;    /* un poco más pequeño que el contenedor */
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #7289da; /* opcional, el borde */
+}
+
+/* =========================
+   RAREZA
+========================= */
+.rarity-icon {
+  position: absolute;
+  pointer-events: none;
+  object-fit: contain;
+}
+
+/* GI + HSR → izquierda del portrait, misma altura */
+.rarity-gi,
+.rarity-hsr {
+  left: -10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 260px; /* igual que portrait */
+  width: auto;
+}
+
+/* ZZZ → abajo derecha, tamaño iconos */
+.rarity-zzz {
+  right: 0;
+  bottom: 0;
+  width: 64px;
+  height: 64px;
+}
+
+/* =========================
+   ICONOS (elemento / arma / etc.)
+========================= */
+.element-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.element-icon {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* =========================
+   SECCIONES INTERNAS
+========================= */
+.skills-container,
+.progression-container,
+.equipment-container {
+  margin-top: 12px;
+}
+
+.skill,
+.progression-level,
+.equipment-card {
+  background-color: #2c2f33;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  color: #ddd;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.85em;
+  color: #aaa;
+}

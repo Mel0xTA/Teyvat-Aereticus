@@ -1,0 +1,875 @@
+{
+  "characters": [
+    {
+    "id": "7-de-marzo",
+    "name": "Siete de Marzo",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Conservación"
+    },
+    "faction": "Anónimos"
+  },
+    {
+    "id": "dan-heng",
+    "name": "Dan Heng",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Cacería"
+    },
+    "faction": "Anónimos"
+  },
+    {
+    "id": "himeko",
+    "name": "Himeko",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Erudición"
+    },
+    "faction": "Anónimos"
+  },
+    {
+    "id": "welt",
+    "name": "Welt",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Anónimos"
+  },
+    {
+    "id": "arlan",
+    "name": "Arlan",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Destrucción"
+    },
+    "faction": "Estación Espacial de Herta"
+  },
+    {
+    "id": "asta",
+    "name": "Asta",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Erudición"
+    },
+    "faction": "Estación Espacial de Herta"
+  },
+    {
+    "id": "herta",
+    "name": "Herta",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Erudición"
+    },
+    "faction": "Estación Espacial de Herta"
+  },
+    {
+    "id": "bronya",
+    "name": "Bronya",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Armonía"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "seele",
+    "name": "Seele",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuántico",
+      "pathType": "Cacería"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "serval",
+    "name": "Serval",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Erudición"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "gepard",
+    "name": "Gepard",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Conservación"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "pela",
+    "name": "Pela",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "sampo",
+    "name": "Sampo",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Nihilidad"
+    },
+    "faction": ["Belobog", "Bufones Enmascarados"]
+  },
+    {
+    "id": "natasha",
+    "name": "Natasha",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Abundancia"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "hook",
+    "name": "Hook",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Destrucción"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "clara",
+    "name": "Clara",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Destrucción"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "tingyun",
+    "name": "Tingyun",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Armonía"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "qingque",
+    "name": "Quingque",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cuántico",
+      "pathType": "Erudición"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "sushang",
+    "name": "Sushang",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Cacería"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "yanqing",
+    "name": "Yanqing",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Cacería"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "bailu",
+    "name": "Bailu",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Abundancia"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "jing-yuan",
+    "name": "Jing Yuan",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Erudición"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "silver-wolf",
+    "name": "Silver Wolf",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuántico",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Cazadores de Estelaron"
+  },
+    {
+    "id": "yukong",
+    "name": "Yukong",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Armonía"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "luocha",
+    "name": "Luocha",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Abundancia"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "blade",
+    "name": "Blade",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Destrucción"
+    },
+    "faction": "Cazadores de Estelaron"
+  },
+    {
+    "id": "luka",
+    "name": "Luka",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "kafka",
+    "name": "Kafka",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Cazadores de Estelaron"
+  },
+    {
+    "id": "dan-heng-imbibitor-lunae",
+    "name": "Dan Heng · Imbibitor Lunae",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Destrucción"
+    },
+    "faction": ["Anónimos", "Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "lynx",
+    "name": "Lynx",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Abundancia"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "fu-xuan",
+    "name": "Fu Xuan",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Conservación"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "jingliu",
+    "name": "Jingliu",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Destrucción"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "guinafen",
+    "name": "Guinafen",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Abundancia"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "lynx",
+    "name": "Lynx",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Abundancia"
+    },
+    "faction": "Belobog"
+  },
+    {
+    "id": "topaz",
+    "name": "Topaz",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Cacería"
+    },
+    "faction": "Corporación para la Paz Interastral"
+  },
+    {
+    "id": "huohuo",
+    "name": "Huohuo",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Abundancia"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "hanya",
+    "name": "Hanya",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Armonía"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "argenti",
+    "name": "Argenti",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Erudición"
+    },
+    "faction": "Caballeros de la Belleza"
+  },
+    {
+    "id": "xueyi",
+    "name": "Xueyi",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Destrucción"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "ruan-mei",
+    "name": "Ruan Mei",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Armonía"
+    },
+    "faction": "Estación Espacial de Herta"
+  },
+    {
+    "id": "dr-ratio",
+    "name": "Dr. Ratio",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Cacería"
+    },
+    "faction": "Sociedad del Conocimiento"
+  },
+    {
+    "id": "misha",
+    "name": "Misha",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Destrucción"
+    },
+    "faction": "Colonipenal"
+  },
+    {
+    "id": "cisne-negro",
+    "name": "Cisne Negro",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Jardín de los Recuerdos"
+  },
+    {
+    "id": "sparkle",
+    "name": "Sparkle",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Armonía"
+    },
+    "faction": "Bufones Enmascarados"
+  },
+    {
+    "id": "galagher",
+    "name": "Galagher",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Abundancia"
+    },
+    "faction": "Colonipenal"
+  },
+    {
+    "id": "acheron",
+    "name": "Acheron",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Nihilidad"
+    },
+    "faction": ["Vigilantes de la Galaxia", "Autodestructores"]
+  },
+    {
+    "id": "aventurino",
+    "name": "Aventurino",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Conservación"
+    },
+    "faction": "Corporación para la Paz Interastral"
+  },
+    {
+    "id": "robin",
+    "name": "Robin",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Armonía"
+    },
+    "faction": "Colonipenal"
+  },
+    {
+    "id": "boothill",
+    "name": "Bothill",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Cacería"
+    },
+    "faction": "Vigilantes de la Galaxia"
+  },
+    {
+    "id": "luciernaga",
+    "name": "Luciérnaga",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Destrucción"
+    },
+    "faction": "Cazadores de Estelaron"
+  },
+    {
+    "id": "jade",
+    "name": "Jade",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Erudición"
+    },
+    "faction": "Corporación para la Paz Interastral"
+  },
+    {
+    "id": "7-de-marzo-caceria",
+    "name": "Siete de Marzo · Cacería",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Cacería"
+    },
+    "faction": "Anónimos"
+  },
+    {
+    "id": "yunli",
+    "name": "Yunli",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Destrucción"
+    },
+    "faction": ["Alianza Xianzhou", "El Zhuming de Xianzhou"]
+  },
+    {
+    "id": "jiaoqiu",
+    "name": "Jiaoqiu",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Nihilidad"
+    },
+    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou"]
+  },
+    {
+    "id": "moze",
+    "name": "Moze",
+    "game": "hsr",
+    "rarity": 4,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Cacería"
+    },
+    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou"]
+  },
+    {
+    "id": "feixiao",
+    "name": "Feixiao",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Cacería"
+    },
+    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou", "Generales Celestiales", "Seis Augurias"]
+  },
+    {
+    "id": "lingsha",
+    "name": "Lingsha",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Abundancia"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou", "Comisión de Alquimia"]
+  },
+    {
+    "id": "rappa",
+    "name": "Rappa",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Erudición"
+    },
+    "faction": "Vigilantes de la Galaxia"
+  },
+    {
+    "id": "sunday",
+    "name": "Sunday",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Armonía"
+    },
+    "faction": ["Colonipenal", "Anónimos"]
+  },
+    {
+    "id": "fugue",
+    "name": "Fugue",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Nihilidad"
+    },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
+  },
+    {
+    "id": "sra-herta",
+    "name": "Sra. Herta",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Erudición"
+    },
+    "faction": "Estación Espacial de Herta"
+  },
+    {
+    "id": "aglaea",
+    "name": "Aglaea",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Rayo",
+      "pathType": "Reminiscencia"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "tribbie",
+    "name": "Tribbie",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Armonía"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "midei",
+    "name": "Midei",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Imaginario",
+      "pathType": "Destrucción"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "castorice",
+    "name": "Castorice",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Reminiscencia"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "anaxas",
+    "name": "Anaxas",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Erudición"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "hyacine",
+    "name": "Hyacine",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Reminiscencia"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "cifer",
+    "name": "Cífer",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "fainon",
+    "name": "Fainón",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Destrucción"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "saber",
+    "name": "Saber",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Destrucción"
+    },
+    "faction": "Otro Mundo"
+  },
+    {
+    "id": "archer",
+    "name": "Archer",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cuantico",
+      "pathType": "Cacería"
+    },
+    "faction": "Otro Mundo"
+  },
+    {
+    "id": "hysilens",
+    "name": "Hysilens",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "ceridra",
+    "name": "Céridra",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Armonía"
+    },
+    "faction": "Amphoreus"
+  },
+    {
+    "id": "larganoche",
+    "name": "Larganoche",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Reminiscencia"
+    },
+    "faction": ["Expreso Astral","Anónimos", "Amphoreus", "Herederos de Crisos", "Hijas puras de Anāsrava"]
+  },
+    {
+    "id": "dan-heng-permansor-terrae",
+    "name": "Dan Heng · Permansor Terrae",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Físico",
+      "pathType": "Conservación"
+    },
+    "faction": ["Expreso Astral", "Anónimos", "Amphoreus", "Herederos de Crisos"]
+  },
+    {
+    "id": "cyrene",
+    "name": "Cyrene",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hielo",
+      "pathType": "Reminiscencia"
+    },
+    "faction": ["Amphoreus", "Herederos de Crisos", "Hijas puras de Anāsrava"]
+  },
+    {
+    "id": "la-dalia",
+    "name": "La Dalia",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Nihilidad"
+    },
+    "faction": "Incineradores"
+  },
+    {
+    "id": "yao-guang",
+    "name": "Yao Guang",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Viento",
+      "pathType": "Exultación"
+    },
+    "faction": "???"
+  },
+    {
+    "id": "chispas",
+    "name": "Chispas",
+    "game": "hsr",
+    "rarity": 5,
+    "attributes": {
+      "element": "Fuego",
+      "pathType": "Exultación"
+    },
+    "faction": "Bufones Enmascarados"
+  }
+  ],
+  "lightcones": [],
+  "relics": []
+}

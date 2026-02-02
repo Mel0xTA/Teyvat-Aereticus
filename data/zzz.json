@@ -1,0 +1,237 @@
+{
+  "agents": [
+    {
+    "id": "anby",
+    "name": "Anby",
+    "fullname": "Anby Demara",
+    "game": "zzz",
+    "rarity": "A",
+    "attributes": {
+      "class": "Aturdidor",
+      "element": "Eléctrico",
+      "dmgType": "Corte"
+    },
+    "faction": "Liebres Astutas"
+  },
+      {
+    "id": "billy",
+    "name": "Billy",
+    "fullname": "Billy Kid",
+    "game": "zzz",
+    "rarity": "A",
+    "attributes": {
+      "class": "Atacante",
+      "element": "Físico",
+      "dmgType": "Perforación"
+    },
+    "faction": "Liebres Astutas"
+  },
+      {
+    "id": "nicole",
+    "name": "Nicole",
+    "fullname": "Nicole Demara",
+    "game": "zzz",
+    "rarity": "A",
+    "attributes": {
+      "class": "Auxiliar",
+      "element": "Étereo",
+      "dmgType": "Golpe"
+    },
+    "faction": "Liebres Astutas"
+  },
+      {
+    "id": "nekomata",
+    "name": "Nekomata",
+    "fullname": "Nekomiya Mana",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Atacante",
+      "element": "Físico",
+      "dmgType": "Corte"
+    },
+    "faction": "Liebres Astutas"
+  },
+      {
+    "id": "nº11",
+    "name": "N.º 11",
+    "fullname": "Soldado n.º 11",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Atacante",
+      "element": "Ígneo",
+      "dmgType": "Corte"
+    },
+    "faction": "Ministerio de Defensa Batallón Óbolos"
+  },
+      {
+    "id": "corin",
+    "name": "Corin",
+    "fullname": "Corin Wickes",
+    "game": "zzz",
+    "rarity": "A",
+    "attributes": {
+      "class": "Atacante",
+      "element": "Físico",
+      "dmgType": "Corte"
+    },
+    "faction": "Servicios Domésticos Victoria"
+  },
+      {
+    "id": "anton",
+    "name": "Antón",
+    "fullname": "Antón Ivanov",
+    "game": "zzz",
+    "rarity": "A",
+    "attributes": {
+      "class": "Atacante",
+      "element": "Electrico",
+      "dmgType": "Perforación"
+    },
+    "faction": "Construcciones Belobog"
+  },
+      {
+    "id": "ben",
+    "name": "Ben",
+    "fullname": "Ben Bigger",
+    "game": "zzz",
+    "rarity": "A",
+    "attributes": {
+      "class": "Defensivo",
+      "element": "Ígneo",
+      "dmgType": "Golpe"
+    },
+    "faction": "Construcciones Belobog"
+  },
+      {
+    "id": "koleda",
+    "name": "Koleda",
+    "fullname": "Koleda Belobog",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Aturdidor",
+      "element": "Ígneo",
+      "dmgType": "Golpe"
+    },
+    "faction": "Construcciones Belobog"
+  },
+      {
+    "id": "grace",
+    "name": "Grace",
+    "fullname": "Grace Howard",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Anómalo",
+      "element": "Electrico",
+      "dmgType": "Perforación"
+    },
+    "faction": "Construcciones Belobog"
+  },
+      {
+    "id": "lycaon",
+    "name": "Lycaon",
+    "fullname": "Von Lycaon",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Aturdidor",
+      "element": "Glacial",
+      "dmgType": "Golpe"
+    },
+    "faction": "Servicios Domésticos Victoria"
+  },
+      {
+    "id": "rina",
+    "name": "Rina",
+    "fullname": "Alexandrina",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Auxiliar",
+      "element": "Electrico",
+      "dmgType": "Golpe"
+    },
+    "faction": "Servicios Domésticos Victoria"
+  },
+      {
+    "id": "ellen",
+    "name": "Ellen",
+    "fullname": "Ellen Joe",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Atacante",
+      "element": "Glacial",
+      "dmgType": "Corte"
+    },
+    "faction": "Servicios Domésticos Victoria"
+  },
+      {
+    "id": "soukaku",
+    "name": "Soukaku",
+    "game": "zzz",
+    "rarity": "A",
+    "attributes": {
+      "class": "Auxiliar",
+      "element": "Glacial",
+      "dmgType": "Corte"
+    },
+    "faction": "División N.º 6"
+  },
+      {
+    "id": "zhu-yuan",
+    "name": "Zhu Yuan",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Atacante",
+      "element": "Etéreo",
+      "dmgType": "Perforación"
+    },
+    "faction": "Equipo de Respuesta de la Unidad de Investigación Criminal"
+  },
+      {
+    "id": "lucy",
+    "name": "Lucy",
+    "fullname": "Luciana de Montefío",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Auxiliar",
+      "element": "Ígneo",
+      "dmgType": "Golpe"
+    },
+    "faction": "Hijos de Calidón"
+  },
+      {
+    "id": "piper",
+    "name": "Piper",
+    "fullname": "Piper Wheel",
+    "game": "zzz",
+    "rarity": "S",
+    "attributes": {
+      "class": "Anómalo",
+      "element": "Físico",
+      "dmgType": "Corte"
+    },
+    "faction": "Hijos de Calidón"
+  },
+      {
+      "id": "qingyi",
+      "name": "Qingyi",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Aturdidor",
+        "element":"Eléctrico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Equipo de Respuesta de la Unidad de Investigación Criminal"
+  }
+  ],
+  "w-engine": [],
+  "drive-disks": []
+}

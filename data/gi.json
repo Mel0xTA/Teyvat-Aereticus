@@ -1,0 +1,1230 @@
+{
+  "characters": [
+    {
+    "id": "amber",
+    "name": "Amber",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Arco"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "kaeya",
+    "name": "Kaeya",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "lisa",
+    "name": "Lisa",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "jean",
+    "name": "Jean",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "diluc",
+    "name": "Diluc",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "barbara",
+    "name": "Bárbara",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "noelle",
+    "name": "Noelle",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "sacarosa",
+    "name": "Sacarosa",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "razor",
+    "name": "Razor",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "bennett",
+    "name": "Bennett",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "fischl",
+    "name": "Fischl",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "mona",
+    "name": "Mona",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "venti",
+    "name": "Venti",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "klee",
+    "name": "Klee",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "xiangling",
+    "name": "Xiangling",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "keching",
+    "name": "Keching",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Espada"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "ninguang",
+    "name": "Ninguang",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "beidou",
+    "name": "Beidou",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "qiqi",
+    "name": "Qiqi",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "xingchiu",
+    "name": "Xingchiu",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "chongyun",
+    "name": "Chongyun",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "diona",
+    "name": "Diona",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Arco"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "tartaglia",
+    "name": "Tartaglia",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Arco"
+    },
+    "region": "Snezhnaya"
+  },
+    {
+    "id": "xinyan",
+    "name": "Xinyan",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "zhongli",
+    "name": "Zhongli",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "albedo",
+    "name": "Albedo",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "ganyu",
+    "name": "Ganyu",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Arco"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "xiao",
+    "name": "Xiao",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "hu-tao",
+    "name": "Hu Tao",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "rosaria",
+    "name": "Rosaria",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "yanfei",
+    "name": "Yanfei",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "eula",
+    "name": "Eula",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "kaedehara-kazuha",
+    "name": "Kaedehara Kazuha",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "kamisato-ayaka",
+    "name": "Kamisato Ayaka",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "sayu",
+    "name": "Sayu",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "yoimiya",
+    "name": "Yoimiya",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Arco"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "aloy",
+    "name": "Aloy",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Arco"
+    },
+    "region": "Otro Mundo"
+  },
+    {
+    "id": "kujou-sara",
+    "name": "Kujou Sara",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "raiden-shogun",
+    "name": "Raiden Shogun",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "sangonomiya-kokomi",
+    "name": "Sangonomiya Kokomi",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "thoma",
+    "name": "Thoma",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "gorou",
+    "name": "Gorou",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Arco"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "arataki-itto",
+    "name": "Arataki Itto",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Mandoble"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "yun-jin",
+    "name": "Yun Jin",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "shenhe",
+    "name": "Shenhe",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "yae-miko",
+    "name": "Yae Miko",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "kamisato-ayato",
+    "name": "Kamisato Ayato",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "yelan",
+    "name": "Yelan",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Arco"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "kuki-shinobu",
+    "name": "Kuki Shinobu",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "shikanoin-heizou",
+    "name": "Shikanoin Heizou",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "collei",
+    "name": "Collei",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "tignari",
+    "name": "Tignari",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "dori",
+    "name": "Dori",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "candace",
+    "name": "Candace",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Lanza"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "cyno",
+    "name": "Cyno",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "nilou",
+    "name": "Nilou",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "nahida",
+    "name": "Nahida",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "laila",
+    "name": "Laila",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "faruzan",
+    "name": "Faruzán",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "wanderer",
+    "name": "Don Sombrero",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "yaoyao",
+    "name": "Yaoyao",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Lanza"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "alhaitham",
+    "name": "Alhacén",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Espada"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "dehya",
+    "name": "Dehya",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "mika",
+    "name": "Mika",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "kaveh",
+    "name": "Kaveh",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "baizhu",
+    "name": "Baizhu",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "kirara",
+    "name": "Kirara",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "lynette",
+    "name": "Lynette",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Espada",
+      "arkhe": "ousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "lyney",
+    "name": "Lyney",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Arco",
+      "arkhe": "pneuma"
+      
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "freminet",
+    "name": "Freminét",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Mandoble",
+      "arkhe": "pneuma"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "neuvillette",
+    "name": "Neuvillette",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador",
+      "arkhe": "pneuma"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "wriothesley",
+    "name": "Wriothesley",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Catalizador",
+      "arkhe": "ousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "charlotte",
+    "name": "Charlotte",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Catalizador",
+      "arkhe": "pneuma"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "furina",
+    "name": "Furina",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada",
+      "arkhe": "pneumousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "navia",
+    "name": "Navia",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Mandoble",
+      "arkhe": "ousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "chevreuse",
+    "name": "Chevreuse",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza",
+      "arkhe": "ousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "gaming",
+    "name": "Gaming",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "xianyun",
+    "name": "Xianyun",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "chiori",
+    "name": "Chiori",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "arlecchino",
+    "name": "Arlecchino",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Lanza"
+    },
+    "region": "Snezhnaya"
+  },
+    {
+    "id": "sethos",
+    "name": "Sethos",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Sumeru"
+  },
+    {
+    "id": "clorinde",
+    "name": "Clorinde",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Espada",
+      "arkhe": "ousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "sigewinne",
+    "name": "Sigewinne",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Arco",
+      "arkhe": "ousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "emilie",
+    "name": "Émilie",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Lanza",
+      "arkhe": "pneuma"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "kachina",
+    "name": "Kachina",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "mualani",
+    "name": "Mualani",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "kinich",
+    "name": "Kinich",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "xilonen",
+    "name": "Xilonen",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "ororon",
+    "name": "Ororon",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Arco"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "chasca",
+    "name": "Chasca",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "citlali",
+    "name": "Citlalí",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "mavuika",
+    "name": "Mavuika",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "lan-yan",
+    "name": "Lan Yan",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Liyue"
+  },
+    {
+    "id": "yumemizuki-mizuki",
+    "name": "Yumemizuki Mizuki",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Inazuma"
+  },
+    {
+    "id": "iansan",
+    "name": "Iansán",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "varesa",
+    "name": "Varesa",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "ifa",
+    "name": "Ifá",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Catalizador"
+    },
+    "region": "Natlan"
+  },
+    {
+    "id": "escoffier",
+    "name": "Escoffier",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Lanza",
+      "arkhe": "ousia"
+    },
+    "region": "Fontaine"
+  },
+    {
+    "id": "dahlia",
+    "name": "Dahlia",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "skirk",
+    "name": "Skirk",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Cryo",
+      "weaponType": "Espada"
+    },
+    "region": "calamidad-cosmica"
+  },
+    {
+    "id": "ineffa",
+    "name": "Ineffa",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "aino",
+    "name": "Aino",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Mandoble"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "lauma",
+    "name": "Lauma",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "flins",
+    "name": "Flins",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Electro",
+      "weaponType": "Lanza"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "nefer",
+    "name": "Néfer",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Dendro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "jahoda",
+    "name": "Jahoda",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Anemo",
+      "weaponType": "Arco"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "durin",
+    "name": "Durin",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Pyro",
+      "weaponType": "Espada"
+    },
+    "region": "Mondstadt"
+  },
+    {
+    "id": "colombina",
+    "name": "Colombina",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Hydro",
+      "weaponType": "Catalizador"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "illuga",
+    "name": "Illuga",
+    "game": "gi",
+    "rarity": 4,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Lanza"
+    },
+    "region": "Nod Krai"
+  },
+    {
+    "id": "zibai",
+    "name": "Zibai",
+    "game": "gi",
+    "rarity": 5,
+    "attributes": {
+      "element": "Geo",
+      "weaponType": "Espada"
+    },
+    "region": "Nod Krai"
+  }
+],
+  "weapons": [],
+  "artifacts": []
+}
