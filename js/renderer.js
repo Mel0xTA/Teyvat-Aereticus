@@ -43,7 +43,7 @@ export function renderCharacters(list, game) {
     if (data.rarity) {
       const rarityImg = document.createElement("img");
       rarityImg.className = `rarity-icon rarity-${game}`;
-      rarityImg.src = `assets/images/${game.toUpperCase()}/rarity/${data.rarity}.png`;
+      rarityImg.src = `assets/images/${game}/rarity/${data.rarity}.png`;
       rarityImg.alt = `Rarity ${data.rarity}`;
       rarityImg.onerror = () => rarityImg.remove();
       portraitContainer.appendChild(rarityImg);
