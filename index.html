@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teyvat Aereticus</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Teyvat Aereticus</h1>
+
+    <!-- Selector de videojuegos -->
+    <div class="game-selector">
+      <button data-game="gi">Genshin Impact</button>
+      <button data-game="hsr">Honkai Star Rail</button>
+      <button data-game="zzz">Zenless Zone Zero</button>
+    </div>
+
+    <!-- MENÚ CONTEXTUAL EMERGENTE -->
+    <nav id="context-menu" class="context-menu" hidden>
+      <button data-view="characters">Personajes</button>
+      <button data-view="weapons">Armas</button>
+      <button data-view="artifacts">Artefactos</button>
+      <!-- ampliable -->
+      <!-- <button data-view="progression">Progresión</button> -->
+    </nav>
+  </header>
+
+  <!-- Breadcrumbs -->
+  <nav id="breadcrumbs" class="breadcrumbs"></nav>
+
+  <!-- Contenido principal -->
+  <main id="content">
+    <!-- El contenido dinámico se carga aquí -->
+  </main>
+
+  <footer>
+    <p>© 2026 Teyvat Aereticus</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>
