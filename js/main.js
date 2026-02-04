@@ -1,214 +1,199 @@
-import { loadGameData } from "./data-loader.js";
-import {
-  renderCharacters,
-  renderWeapons,
-  renderArtifacts,
-  renderEntityDetail
-} from "./renderer.js";
+let charactersData = [];
+let currentGame = "gi";
 
-/* =========================
-   SELECTORES DOM
-========================= */
-const gameMenu = document.querySelector(".game-selector");
-const contextMenu = document.getElementById("context-menu");
-const content = document.getElementById("content");
-const breadcrumbs = document.getElementById("breadcrumbs");
-
-/* =========================
-   ESTADO GLOBAL
-========================= */
-let currentGame = null;
-let currentView = null;
-let currentEntityId = null;
-let gameData = null;
-
-/* =========================
-   LABELS POR JUEGO
-========================= */
-const VIEW_LABELS = {
-  gi: {
-    characters: "Personajes",
-    weapons: "Armas",
-    artifacts: "Artefactos"
-  },
-  hsr: {
-    characters: "Personajes",
-    weapons: "Conos de Luz",
-    artifacts: "Reliquias"
-  },
-  zzz: {
-    characters: "Agentes",
-    weapons: "Amplificadores",
-    artifacts: "Pista de Discos"
-  }
-};
-
-/* =========================
-   EVENTOS
-========================= */
-
-// Selector de videojuego
-gameMenu.addEventListener("click", (event) => {
-  const button = event.target.closest("button");
-  if (!button) return;
-
-  document
-    .querySelectorAll(".game-selector button")
-    .forEach(b => b.classList.remove("active"));
-
-  button.classList.add("active");
-
-  const game = button.dataset.game;
-  location.hash = `#${game}/characters`;
-});
-
-// Menú contextual
-contextMenu.addEventListener("click", (event) => {
-  const button = event.target.closest("button");
-  if (!button || !currentGame) return;
-
-  const view = button.dataset.view;
-  location.hash = `#${currentGame}/${view}`;
-});
-
-// Breadcrumbs
-document.addEventListener("click", (event) => {
-  const crumb = event.target.closest(".crumb.clickable");
-  if (!crumb) return;
-
-  location.hash = crumb.dataset.hash || "";
-});
-
-/* =========================
-   ROUTER
-========================= */
-async function routeFromHash() {
-  const hash = location.hash.replace("#", "");
-  if (!hash) return;
-
-  const [game, view, entityId] = hash.split("/");
-  if (!game || !view) return;
-
-  currentGame = game;
-  currentView = view;
-  currentEntityId = entityId || null;
-
-  content.innerHTML = "<p>Cargando datos...</p>";
-  contextMenu.classList.remove("visible");
-  contextMenu.hidden = true;
-
-  try {
-    gameData = await loadGameData(game);
-
-    renderContextMenu();
-
-    contextMenu.hidden = false;
-    requestAnimationFrame(() => {
-      contextMenu.classList.add("visible");
-    });
-
-    renderBreadcrumbs();
-    renderCurrentView();
-
-  } catch (error) {
-    content.innerHTML = "<p>Error cargando datos</p>";
-    console.error(error);
-  }
+function normalizeText(text) {
+  return String(text)
+    .trim()
+    .normalize("NFD")                     // Descompone acentos
+    .replace(/[\u0300-\u036f]/g, "")      // Elimina diacríticos
+    .replace(/ñ/g, "n")                   // Reemplaza ñ por n
+    .replace(/Ñ/g, "N")                   // Reemplaza Ñ por N si aplica
+    .replace(/\./g, "")                   // Elimina puntos
+    .toLowerCase()
+    .replace(/\s+/g, "-");                // Reemplaza espacios por guion
 }
 
-window.addEventListener("hashchange", routeFromHash);
-window.addEventListener("load", routeFromHash);
+/**
+ * Carga JSON del juego seleccionado
+ */
+async function loadCharacters(game) {
+  currentGame = game;
 
-/* =========================
-   RENDERERS
-========================= */
-function renderCurrentView() {
+  const res = await fetch(`/data/${game}.json`);
+  if (!res.ok) {
+    console.error(`No se pudo cargar ${game}.json`, res.status);
+    charactersData = [];
+    renderCharacters();
+    return;
+  }
+
+  const data = await res.json();
+
+  // Para ZZZ usamos 'agents', para los demás 'characters'
+  if (game === "zzz") {
+    charactersData = data.agents ?? [];
+  } else {
+    charactersData = data.characters ?? [];
+  }
+
+  renderCharacters();
+}
+
+/**
+ * Render principal
+ */
+function renderCharacters() {
+  const content = document.getElementById("content");
   content.innerHTML = "";
 
-  if (currentEntityId) {
-    const entity = getCurrentEntity();
-    if (!entity) {
-      content.innerHTML = "<p>Entidad no encontrada</p>";
-      return;
+  if (!charactersData.length) {
+    content.innerHTML = `
+      <p class="col-span-6 text-center text-gray-400">
+        No hay personajes disponibles.
+      </p>`;
+    return;
+  }
+
+  charactersData.forEach(char => {
+    const avatarPath = `/assets/images/${currentGame}/avatar/${char.id}.png`;
+    const rarityPath = `/assets/images/${currentGame}/rarity/${char.rarity}.png`;
+
+    let iconsHTML = "";
+
+    /* ========= HSR ========= */
+    if (currentGame === "hsr") {
+      const element = normalizeText(char.attributes?.element ?? "");
+      const pathType = normalizeText(char.attributes?.pathType ?? "");
+      if (element && pathType) {
+        iconsHTML = `
+          <img data-icon src="/assets/images/hsr/element/${element}.png" style="width:auto;">
+          <img data-icon src="/assets/images/hsr/pathType/${pathType}.png" style="width:auto;">
+        `;
+      }
     }
-    renderEntityDetail(entity);
-    return;
-  }
 
-  switch (currentView) {
-    case "characters":
-      renderCharacters(gameData.characters, currentGame);
-      break;
-    case "weapons":
-      renderWeapons(gameData.weapons);
-      break;
-    case "artifacts":
-      renderArtifacts(gameData.artifacts);
-      break;
-    default:
-      content.innerHTML = "<p>Vista no disponible</p>";
-  }
-}
+    /* ========= GENSHIN IMPACT ========= */
+    if (currentGame === "gi") {
+      const element = normalizeText(char.attributes?.element ?? "");
+      const region = normalizeText(char.region ?? "");
+      const arkhe = normalizeText(char.attributes?.arkhe ?? "");
+      const weapon = normalizeText(char.attributes?.weaponType ?? "");
 
-function renderContextMenu() {
-  const labels = VIEW_LABELS[currentGame];
-  contextMenu.innerHTML = "";
+      let visionFile = "";
+      if (element && region) {
+        visionFile = `${element}-${region}`;
+        if (region === "fontaine" && arkhe) visionFile += `-${arkhe}`;
+      }
 
-  for (const view in labels) {
-    const btn = document.createElement("button");
-    btn.dataset.view = view;
-    btn.textContent = labels[view];
-    contextMenu.appendChild(btn);
-  }
-}
-
-function renderBreadcrumbs() {
-  if (!currentGame || !currentView) {
-    breadcrumbs.innerHTML = "";
-    return;
-  }
-
-  const viewLabel = VIEW_LABELS[currentGame]?.[currentView] ?? currentView;
-
-  let html = `
-    <span class="crumb clickable" data-hash="">Inicio</span>
-    <span class="separator">›</span>
-    <span class="crumb clickable" data-hash="#${currentGame}/characters">
-      ${currentGame.toUpperCase()}
-    </span>
-    <span class="separator">›</span>
-    <span class="crumb clickable" data-hash="#${currentGame}/${currentView}">
-      ${viewLabel}
-    </span>
-  `;
-
-  if (currentEntityId) {
-    const entity = getCurrentEntity();
-    if (entity) {
-      html += `
-        <span class="separator">›</span>
-        <span class="crumb active">${entity.name}</span>
+      iconsHTML = `
+        ${visionFile ? `<img data-icon src="/assets/images/gi/vision/${visionFile}.png" style="width:auto;">` : ""}
+        ${weapon ? `<img data-icon src="/assets/images/gi/weaponType/${weapon}.png" style="width:auto;">` : ""}
       `;
     }
-  }
 
-  breadcrumbs.innerHTML = html;
+    /* ========= ZZZ ========= */
+    if (currentGame === "zzz") {
+      const element = normalizeText(char.attributes?.element ?? "");
+      const role = normalizeText(char.attributes?.class ?? "");
+      const faction = normalizeText(char.faction ?? "");
+
+      if (element && role) {
+        iconsHTML = `
+          <img data-icon src="/assets/images/zzz/element/${element}.png" style="width:auto;">
+          <img data-icon src="/assets/images/zzz/role/${role}.png" style="width:auto;">
+          ${faction ? `<img data-icon src="/assets/images/zzz/faction/${faction}.png" style="width:auto;">` : ""}
+        `;
+      }
+    }
+
+    // Construcción de tarjeta
+    const card = document.createElement("div");
+    card.className =
+      "bg-slate-800 rounded-2xl overflow-hidden flex flex-col aspect-[3/5] shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_5px_rgba(255,255,255,0.2)]";
+
+    card.innerHTML = `
+      <div class="relative w-full flex-[0_0_65%] aspect-square overflow-hidden avatar-container">
+        <img src="${avatarPath}" class="w-full h-full object-cover avatar-img">
+        <img src="${rarityPath}" class="rarity-img" style="width:auto; position:absolute;">
+      </div>
+
+      <div class="flex-1 flex flex-col items-center justify-center text-center px-3 py-4">
+        <h3 class="char-name font-bold mb-2">${char.name}</h3>
+        <div class="flex justify-center gap-2 icons-container mb-2">
+          ${iconsHTML}
+        </div>
+      </div>
+    `;
+
+    content.appendChild(card);
+
+    const avatarDiv = card.querySelector(".avatar-container");
+    const avatarImg = avatarDiv.querySelector(".avatar-img");
+    const iconContainer = card.querySelector(".icons-container");
+    const nameElem = card.querySelector(".char-name");
+    const rarityImg = card.querySelector(".rarity-img");
+
+    // Función de escalado dinámico
+    const scaleElements = () => {
+      const avatarHeight = avatarDiv.clientHeight;
+      const avatarWidth = avatarDiv.clientWidth;
+
+      // ----- Nombre del personaje -----
+      nameElem.style.whiteSpace = "nowrap";
+      nameElem.style.overflow = "hidden";
+      nameElem.style.textOverflow = "ellipsis";
+
+      let fontSize = Math.min(avatarHeight * 0.12, 32); // máximo 32px
+      nameElem.style.fontSize = `${fontSize}px`;
+      while (nameElem.scrollWidth > avatarWidth - 8 && fontSize > 8) {
+        fontSize -= 1;
+        nameElem.style.fontSize = `${fontSize}px`;
+      }
+
+      // ----- Íconos -----
+      const iconElements = iconContainer.querySelectorAll("img[data-icon]");
+      const iconHeight = avatarHeight * 0.25;
+      const gap = avatarHeight * 0.08;
+
+      iconElements.forEach(img => {
+        img.style.height = `${iconHeight}px`;
+        img.style.width = "auto";
+      });
+      iconContainer.style.gap = `${gap}px`;
+
+      // ----- Rareza -----
+      if (currentGame === "zzz") {
+        rarityImg.style.bottom = "0.5em";
+        rarityImg.style.right = "0.5em";
+        rarityImg.style.left = "auto";
+        const rarityHeight = avatarHeight * 0.2; // tamaño independiente
+        rarityImg.style.height = `${rarityHeight}px`;
+        rarityImg.style.width = "auto";
+      } else {
+        rarityImg.style.bottom = "0.5em";
+        rarityImg.style.left = "50%";
+        rarityImg.style.transform = "translateX(-50%)";
+        rarityImg.style.height = `${avatarHeight * 0.15}px`;
+        rarityImg.style.width = "auto";
+      }
+    };
+
+    // Escalado después de cargar la imagen
+    avatarImg.addEventListener("load", scaleElements);
+
+    // Escalado dinámico al cambiar el tamaño de la ventana
+    window.addEventListener("resize", scaleElements);
+  });
 }
 
-/* =========================
-   UTILIDADES
-========================= */
-function getCurrentEntity() {
-  if (!gameData || !currentEntityId) return null;
+document.addEventListener("DOMContentLoaded", () => {
+  // Eventos de botones
+  document.querySelectorAll("button[data-game]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      loadCharacters(btn.dataset.game);
+    });
+  });
 
-  if (currentView === "characters") {
-    return gameData.characters.find(e => e.id === currentEntityId);
-  }
-  if (currentView === "weapons") {
-    return gameData.weapons.find(e => e.id === currentEntityId);
-  }
-  if (currentView === "artifacts") {
-    return gameData.artifacts.find(e => e.id === currentEntityId);
-  }
-  return null;
-}
+  // Init
+  loadCharacters(currentGame);
+});

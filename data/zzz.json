@@ -230,6 +230,391 @@
         "dmgType":"Golpe"
      },
     "faction": "Equipo de Respuesta de la Unidad de Investigación Criminal"
+  },
+      {
+      "id": "seth",
+      "name": "Seth",
+      "fullname": "Seth Lowell",
+      "game": "zzz",
+      "rarity":"A",
+      "attributes":{
+        "class": "Defensivo",
+        "element":"Eléctrico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Equipo de Respuesta de la Unidad de Investigación Criminal"
+  },
+      {
+      "id": "jane-doe",
+      "name": "Jane Doe",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Anómalo",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Equipo de Respuesta de la Unidad de Investigación Criminal (Jane Doe)"
+  },
+      {
+      "id": "cesar",
+      "name": "César",
+      "fullname": "César King",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Defensivo",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Hijos de Calidón"
+  },
+      {
+      "id": "burnice",
+      "name": "Burnice",
+      "fullname": "Burnice White",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Anómalo",
+        "element":"Ígneo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Hijos de Calidón"
+  },
+      {
+      "id": "yanagi",
+      "name": "Yanagi",
+      "fullname": "Tsukishiro Yanagi",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Anómalo",
+        "element":"Electrico",
+        "dmgType":"Golpe"
+     },
+    "faction": "División N.º 6"
+  },
+      {
+      "id": "lighter",
+      "name": "Lighter",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Aturdidor",
+        "element":"Ígneo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Hijos de Calidón"
+  },
+      {
+      "id": "harumasa",
+      "name": "Harumasa",
+      "fullname": "Asaba Harumasa",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Atacante",
+        "element":"Eléctrico",
+        "dmgType":"Golpe"
+     },
+    "faction": "División N.º 6"
+  },
+      {
+      "id": "miyabi",
+      "name": "Miyabi",
+      "fullname":"Hoshimi Miyabi",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Anómalo",
+        "element":"Gélido",
+        "dmgType":"Golpe"
+     },
+    "faction": "División N.º 6"
+  },
+      {
+      "id": "astra-yao",
+      "name": "Astra Yao",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Auxiliar",
+        "element":"Étereo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Estrellas de Lyra"
+  },
+      {
+      "id": "evelyn",
+      "name": "Evelyn",
+      "fullname": "Evelyn Chevalier",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Atacante",
+        "element":"Ígneo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Estrellas de Lyra"
+  },
+      {
+      "id": "pulchra",
+      "name": "Pulchra",
+      "fullname": "Pulchra Fellini",
+      "game": "zzz",
+      "rarity":"A",
+      "attributes":{
+        "class": "Aturdidor",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Hijos de Calidón"
+  },
+      {
+      "id": "nº0-anby",
+      "name": "N.º 0: Anby",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Atacante",
+        "element":"Eléctrico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ministerio de Defensa Batallón Argente"
+  },
+      {
+      "id": "gatillo",
+      "name": "Gatillo",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Aturdidor",
+        "element":"Eléctrico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ministerio de Defensa Batallón Óbolos"
+  },
+      {
+      "id": "vivian",
+      "name": "Vivian",
+      "fullname":"Vivian Banshee",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Anómalo",
+        "element":"Etéreo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ruiseñor"
+  },
+      {
+      "id": "hugo",
+      "name": "Hugo",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Atacante",
+        "element":"Glacial",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ruiseñor"
+  },
+      {
+      "id": "pan-yinhu",
+      "name": "Pan Yinhu",
+      "game": "zzz",
+      "rarity":"A",
+      "attributes":{
+        "class": "Defensivo",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Pináculo Yunkui"
+  },
+      {
+      "id": "yixuan",
+      "name": "Yixuan",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Disruptivo",
+        "element":"Etéreo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Pináculo Yunkui"
+  },
+      {
+      "id": "ju-fufu",
+      "name": "Ju Fufu",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Aturdidor",
+        "element":"Ígneo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Pináculo Yunkui"
+  },
+      {
+      "id": "yuzuha",
+      "name": "Yuzuha",
+      "fullname": "Ukinami Yuzuha",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Auxiliar",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Cabaña del Terror"
+  },
+      {
+      "id": "alice",
+      "name": "Alice",
+      "fullname": "Alice Thymefield",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Anómalo",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Cabaña del Terror"
+  },
+      {
+      "id": "orfia-&-magas",
+      "name": "Orfia y Magas",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Atacante",
+        "element":"Ígneo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ministerio de Defensa Batallón Óbolos"
+  },
+      {
+      "id": "sporos",
+      "name": "Sporos",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Atacante",
+        "element":"Eléctrico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ministerio de Defensa Batallón Óbolos"
+  },
+      {
+      "id": "manato",
+      "name": "Manato",
+      "fullname": "Komano Manato",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Disruptivo",
+        "element":"Ígneo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Cabaña del Terror"
+  },
+      {
+      "id": "lucia",
+      "name": "Lucía",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Auxiliar",
+        "element":"Etéreo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Cabaña del Terror"
+  },
+      {
+      "id": "yidhari",
+      "name": "Yidhari",
+      "fullname": "Yidhari",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Disruptivo",
+        "element":"Glacial",
+        "dmgType":"Golpe"
+     },
+    "faction": "Cabaña del Terror"
+  },
+      {
+      "id": "dialyn",
+      "name": "Dialyn",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Aturdidor",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Auditoría Krampus"
+  },
+      {
+      "id": "banyue",
+      "name": "Banyue",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Disruptivo",
+        "element":"Ígneo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Auditoría Krampus"
+  },
+      {
+      "id": "zhao",
+      "name": "Zhao",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Defensivo",
+        "element":"Glacial",
+        "dmgType":"Golpe"
+     },
+    "faction": "Auditoría Krampus"
+  },
+      {
+      "id": "ye-shunguang",
+      "name": "Ye Shunguang",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Atacante",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Cabaña del Terror"
+  },
+      {
+      "id": "aria",
+      "name": "Aria",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Anómalo",
+        "element":"Etéreo",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ángeles de la Delusión"
+  },
+      {
+      "id": "sunna",
+      "name": "Sunna",
+      "game": "zzz",
+      "rarity":"S",
+      "attributes":{
+        "class": "Auxiliar",
+        "element":"Físico",
+        "dmgType":"Golpe"
+     },
+    "faction": "Ángeles de la Delusión"
   }
   ],
   "w-engine": [],

@@ -3,45 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teyvat Aereticus</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Selector de Personajes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
 
-  <header>
-    <h1>Teyvat Aereticus</h1>
+<body class="bg-slate-900 text-white">
 
-    <!-- Selector de videojuegos -->
-    <div class="game-selector">
-      <button data-game="gi">Genshin Impact</button>
-      <button data-game="hsr">Honkai Star Rail</button>
-      <button data-game="zzz">Zenless Zone Zero</button>
-    </div>
+  <!-- Selector de juego -->
+  <div class="flex justify-center gap-4 p-4">
+    <button class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded" data-game="gi">Genshin Impact</button>
+    <button class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded" data-game="hsr">Honkai Star Rail</button>
+    <button class="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded" data-game="zzz">Zenless Zone Zero</button>
+  </div>
 
-    <!-- MENÚ CONTEXTUAL EMERGENTE -->
-    <nav id="context-menu" class="context-menu" hidden>
-      <button data-view="characters">Personajes</button>
-      <button data-view="weapons">Armas</button>
-      <button data-view="artifacts">Artefactos</button>
-      <!-- ampliable -->
-      <!-- <button data-view="progression">Progresión</button> -->
-    </nav>
-  </header>
+  <!-- Grid fijo de 6 columnas -->
+  <div id="content" class="grid grid-cols-7 gap-6 p-6"></div>
 
-  <!-- Breadcrumbs -->
-  <nav id="breadcrumbs" class="breadcrumbs"></nav>
-
-  <!-- Contenido principal -->
-  <main id="content">
-    <!-- El contenido dinámico se carga aquí -->
-  </main>
-
-  <footer>
-    <p>© 2026 Teyvat Aereticus</p>
-  </footer>
-
-  <!-- Scripts -->
-  <script type="module" src="./js/main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>
