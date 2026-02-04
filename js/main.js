@@ -19,7 +19,7 @@ function normalizeText(text) {
 async function loadCharacters(game) {
   currentGame = game;
 
-  const res = await fetch(`/data/${game}.json`);
+  const res = await fetch(`data/${game}.json`);
   if (!res.ok) {
     console.error(`No se pudo cargar ${game}.json`, res.status);
     charactersData = [];
@@ -55,8 +55,8 @@ function renderCharacters() {
   }
 
   charactersData.forEach(char => {
-    const avatarPath = `/assets/images/${currentGame}/avatar/${char.id}.png`;
-    const rarityPath = `/assets/images/${currentGame}/rarity/${char.rarity}.png`;
+    const avatarPath = `assets/images/${currentGame}/avatar/${char.id}.png`;
+    const rarityPath = `assets/images/${currentGame}/rarity/${char.rarity}.png`;
 
     let iconsHTML = "";
 
@@ -66,8 +66,8 @@ function renderCharacters() {
       const pathType = normalizeText(char.attributes?.pathType ?? "");
       if (element && pathType) {
         iconsHTML = `
-          <img data-icon src="/assets/images/hsr/element/${element}.png" style="width:auto;">
-          <img data-icon src="/assets/images/hsr/pathType/${pathType}.png" style="width:auto;">
+          <img data-icon src="assets/images/hsr/element/${element}.png" style="width:auto;">
+          <img data-icon src="assets/images/hsr/pathType/${pathType}.png" style="width:auto;">
         `;
       }
     }
@@ -86,8 +86,8 @@ function renderCharacters() {
       }
 
       iconsHTML = `
-        ${visionFile ? `<img data-icon src="/assets/images/gi/vision/${visionFile}.png" style="width:auto;">` : ""}
-        ${weapon ? `<img data-icon src="/assets/images/gi/weaponType/${weapon}.png" style="width:auto;">` : ""}
+        ${visionFile ? `<img data-icon src="assets/images/gi/vision/${visionFile}.png" style="width:auto;">` : ""}
+        ${weapon ? `<img data-icon src="assets/images/gi/weaponType/${weapon}.png" style="width:auto;">` : ""}
       `;
     }
 
@@ -99,9 +99,9 @@ function renderCharacters() {
 
       if (element && role) {
         iconsHTML = `
-          <img data-icon src="/assets/images/zzz/element/${element}.png" style="width:auto;">
-          <img data-icon src="/assets/images/zzz/role/${role}.png" style="width:auto;">
-          ${faction ? `<img data-icon src="/assets/images/zzz/faction/${faction}.png" style="width:auto;">` : ""}
+          <img data-icon src="assets/images/zzz/element/${element}.png" style="width:auto;">
+          <img data-icon src="assets/images/zzz/role/${role}.png" style="width:auto;">
+          ${faction ? `<img data-icon src="assets/images/zzz/faction/${faction}.png" style="width:auto;">` : ""}
         `;
       }
     }
