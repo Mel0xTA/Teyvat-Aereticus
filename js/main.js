@@ -106,24 +106,29 @@ function renderCharacters() {
       }
     }
 
-    // Construcción de tarjeta
-    const card = document.createElement("div");
-    card.className =
-      "bg-slate-800 rounded-2xl overflow-hidden flex flex-col aspect-[3/5] shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_5px_rgba(255,255,255,0.2)]";
+// Construcción de tarjeta
+const card = document.createElement("div");
+card.className =
+  "bg-slate-800 rounded-2xl overflow-hidden flex flex-col aspect-[3/5] shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_5px_rgba(255,255,255,0.2)]";
 
-    card.innerHTML = `
-      <div class="relative w-full flex-[0_0_65%] aspect-square overflow-hidden avatar-container">
-        <img src="${avatarPath}" class="w-full h-full object-cover avatar-img">
-        <img src="${rarityPath}" class="rarity-img" style="width:auto; position:absolute;">
-      </div>
+card.style.cursor = "pointer";
+card.addEventListener("click", () => {
+  window.location.href = `characters/character.html?game=${currentGame}&id=${char.id}`;
+});
 
-      <div class="flex-1 flex flex-col items-center justify-center text-center px-3 py-4">
-        <h3 class="char-name font-bold mb-2">${char.name}</h3>
-        <div class="flex justify-center gap-2 icons-container mb-2">
-          ${iconsHTML}
-        </div>
-      </div>
-    `;
+card.innerHTML = `
+  <div class="relative w-full flex-[0_0_65%] aspect-square overflow-hidden avatar-container">
+    <img src="${avatarPath}" class="w-full h-full object-cover avatar-img">
+    <img src="${rarityPath}" class="rarity-img" style="width:auto; position:absolute;">
+  </div>
+
+  <div class="flex-1 flex flex-col items-center justify-center text-center px-3 py-4">
+    <h3 class="char-name font-bold mb-2">${char.name}</h3>
+    <div class="flex justify-center gap-2 icons-container mb-2">
+      ${iconsHTML}
+    </div>
+  </div>
+`;
 
     content.appendChild(card);
 

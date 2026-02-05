@@ -9,8 +9,40 @@
       "element": "Hielo",
       "pathType": "Conservación"
     },
-    "faction": "Anónimos"
-  },
+    "faction": "Anónimos",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "dan-heng",
     "name": "Dan Heng",
@@ -20,8 +52,40 @@
       "element": "Viento",
       "pathType": "Cacería"
     },
-    "faction": "Anónimos"
-  },
+    "faction": "Anónimos",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "himeko",
     "name": "Himeko",
@@ -31,8 +95,40 @@
       "element": "Fuego",
       "pathType": "Erudición"
     },
-    "faction": "Anónimos"
-  },
+    "faction": "Anónimos",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "welt",
     "name": "Welt",
@@ -42,8 +138,40 @@
       "element": "Imaginario",
       "pathType": "Nihilidad"
     },
-    "faction": "Anónimos"
-  },
+    "faction": "Anónimos",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "arlan",
     "name": "Arlan",
@@ -53,8 +181,40 @@
       "element": "Rayo",
       "pathType": "Destrucción"
     },
-    "faction": "Estación Espacial de Herta"
-  },
+    "faction": "Estación Espacial de Herta",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "asta",
     "name": "Asta",
@@ -64,8 +224,40 @@
       "element": "Fuego",
       "pathType": "Erudición"
     },
-    "faction": "Estación Espacial de Herta"
-  },
+    "faction": "Estación Espacial de Herta",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "herta",
     "name": "Herta",
@@ -75,8 +267,40 @@
       "element": "Hielo",
       "pathType": "Erudición"
     },
-    "faction": "Estación Espacial de Herta"
-  },
+    "faction": "Estación Espacial de Herta",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "bronya",
     "name": "Bronya",
@@ -86,8 +310,40 @@
       "element": "Viento",
       "pathType": "Armonía"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "seele",
     "name": "Seele",
@@ -97,8 +353,40 @@
       "element": "Cuántico",
       "pathType": "Cacería"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "serval",
     "name": "Serval",
@@ -108,8 +396,40 @@
       "element": "Rayo",
       "pathType": "Erudición"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "gepard",
     "name": "Gepard",
@@ -119,8 +439,40 @@
       "element": "Hielo",
       "pathType": "Conservación"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "pela",
     "name": "Pela",
@@ -130,8 +482,40 @@
       "element": "Hielo",
       "pathType": "Nihilidad"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "sampo",
     "name": "Sampo",
@@ -141,8 +525,40 @@
       "element": "Viento",
       "pathType": "Nihilidad"
     },
-    "faction": ["Belobog", "Bufones Enmascarados"]
-  },
+    "faction": ["Belobog", "Bufones Enmascarados"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "natasha",
     "name": "Natasha",
@@ -152,8 +568,40 @@
       "element": "Físico",
       "pathType": "Abundancia"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "hook",
     "name": "Hook",
@@ -163,8 +611,40 @@
       "element": "Fuego",
       "pathType": "Destrucción"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "clara",
     "name": "Clara",
@@ -174,8 +654,40 @@
       "element": "Físico",
       "pathType": "Destrucción"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "tingyun",
     "name": "Tingyun",
@@ -185,8 +697,40 @@
       "element": "Rayo",
       "pathType": "Armonía"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "qingque",
     "name": "Quingque",
@@ -196,8 +740,40 @@
       "element": "Cuántico",
       "pathType": "Erudición"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "sushang",
     "name": "Sushang",
@@ -207,8 +783,40 @@
       "element": "Físico",
       "pathType": "Cacería"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "yanqing",
     "name": "Yanqing",
@@ -218,8 +826,40 @@
       "element": "Hielo",
       "pathType": "Cacería"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "bailu",
     "name": "Bailu",
@@ -229,8 +869,40 @@
       "element": "Rayo",
       "pathType": "Abundancia"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "jing-yuan",
     "name": "Jing Yuan",
@@ -240,8 +912,40 @@
       "element": "Rayo",
       "pathType": "Erudición"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "silver-wolf",
     "name": "Silver Wolf",
@@ -251,8 +955,40 @@
       "element": "Cuántico",
       "pathType": "Nihilidad"
     },
-    "faction": "Cazadores de Estelaron"
-  },
+    "faction": "Cazadores de Estelaron",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "yukong",
     "name": "Yukong",
@@ -262,8 +998,40 @@
       "element": "Imaginario",
       "pathType": "Armonía"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "luocha",
     "name": "Luocha",
@@ -273,8 +1041,40 @@
       "element": "Imaginario",
       "pathType": "Abundancia"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "blade",
     "name": "Blade",
@@ -284,8 +1084,40 @@
       "element": "Viento",
       "pathType": "Destrucción"
     },
-    "faction": "Cazadores de Estelaron"
-  },
+    "faction": "Cazadores de Estelaron",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "luka",
     "name": "Luka",
@@ -295,8 +1127,40 @@
       "element": "Físico",
       "pathType": "Nihilidad"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "kafka",
     "name": "Kafka",
@@ -306,8 +1170,40 @@
       "element": "Rayo",
       "pathType": "Nihilidad"
     },
-    "faction": "Cazadores de Estelaron"
-  },
+    "faction": "Cazadores de Estelaron",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "dan-heng-imbibitor-lunae",
     "name": "Dan Heng · Imbibitor Lunae",
@@ -317,8 +1213,40 @@
       "element": "Imaginario",
       "pathType": "Destrucción"
     },
-    "faction": ["Anónimos", "Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Anónimos", "Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "lynx",
     "name": "Lynx",
@@ -328,8 +1256,40 @@
       "element": "Cuantico",
       "pathType": "Abundancia"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "fu-xuan",
     "name": "Fu Xuan",
@@ -339,8 +1299,40 @@
       "element": "Cuantico",
       "pathType": "Conservación"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "jingliu",
     "name": "Jingliu",
@@ -350,8 +1342,40 @@
       "element": "Hielo",
       "pathType": "Destrucción"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "guinafen",
     "name": "Guinafen",
@@ -361,8 +1385,40 @@
       "element": "Cuantico",
       "pathType": "Abundancia"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "lynx",
     "name": "Lynx",
@@ -372,8 +1428,40 @@
       "element": "Cuantico",
       "pathType": "Abundancia"
     },
-    "faction": "Belobog"
-  },
+    "faction": "Belobog",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "topaz",
     "name": "Topaz",
@@ -383,8 +1471,40 @@
       "element": "Fuego",
       "pathType": "Cacería"
     },
-    "faction": "Corporación para la Paz Interastral"
-  },
+    "faction": "Corporación para la Paz Interastral",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "huohuo",
     "name": "Huohuo",
@@ -394,8 +1514,40 @@
       "element": "Viento",
       "pathType": "Abundancia"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "hanya",
     "name": "Hanya",
@@ -405,8 +1557,40 @@
       "element": "Físico",
       "pathType": "Armonía"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "argenti",
     "name": "Argenti",
@@ -416,8 +1600,40 @@
       "element": "Físico",
       "pathType": "Erudición"
     },
-    "faction": "Caballeros de la Belleza"
-  },
+    "faction": "Caballeros de la Belleza",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "xueyi",
     "name": "Xueyi",
@@ -427,8 +1643,40 @@
       "element": "Cuantico",
       "pathType": "Destrucción"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "ruan-mei",
     "name": "Ruan Mei",
@@ -438,8 +1686,40 @@
       "element": "Hielo",
       "pathType": "Armonía"
     },
-    "faction": "Estación Espacial de Herta"
-  },
+    "faction": "Estación Espacial de Herta",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "dr-ratio",
     "name": "Dr. Ratio",
@@ -449,8 +1729,40 @@
       "element": "Imaginario",
       "pathType": "Cacería"
     },
-    "faction": "Sociedad del Conocimiento"
-  },
+    "faction": "Sociedad del Conocimiento",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "misha",
     "name": "Misha",
@@ -460,8 +1772,40 @@
       "element": "Hielo",
       "pathType": "Destrucción"
     },
-    "faction": "Colonipenal"
-  },
+    "faction": "Colonipenal",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "cisne-negro",
     "name": "Cisne Negro",
@@ -471,8 +1815,40 @@
       "element": "Viento",
       "pathType": "Nihilidad"
     },
-    "faction": "Jardín de los Recuerdos"
-  },
+    "faction": "Jardín de los Recuerdos",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "sparkle",
     "name": "Sparkle",
@@ -482,8 +1858,40 @@
       "element": "Cuantico",
       "pathType": "Armonía"
     },
-    "faction": "Bufones Enmascarados"
-  },
+    "faction": "Bufones Enmascarados",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "galagher",
     "name": "Galagher",
@@ -493,8 +1901,40 @@
       "element": "Fuego",
       "pathType": "Abundancia"
     },
-    "faction": "Colonipenal"
-  },
+    "faction": "Colonipenal",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "acheron",
     "name": "Acheron",
@@ -504,8 +1944,40 @@
       "element": "Rayo",
       "pathType": "Nihilidad"
     },
-    "faction": ["Vigilantes de la Galaxia", "Autodestructores"]
-  },
+    "faction": ["Vigilantes de la Galaxia", "Autodestructores"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "aventurino",
     "name": "Aventurino",
@@ -515,8 +1987,40 @@
       "element": "Imaginario",
       "pathType": "Conservación"
     },
-    "faction": "Corporación para la Paz Interastral"
-  },
+    "faction": "Corporación para la Paz Interastral",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "robin",
     "name": "Robin",
@@ -526,8 +2030,40 @@
       "element": "Físico",
       "pathType": "Armonía"
     },
-    "faction": "Colonipenal"
-  },
+    "faction": "Colonipenal",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "boothill",
     "name": "Bothill",
@@ -537,8 +2073,40 @@
       "element": "Físico",
       "pathType": "Cacería"
     },
-    "faction": "Vigilantes de la Galaxia"
-  },
+    "faction": "Vigilantes de la Galaxia",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "luciernaga",
     "name": "Luciérnaga",
@@ -548,8 +2116,40 @@
       "element": "Fuego",
       "pathType": "Destrucción"
     },
-    "faction": "Cazadores de Estelaron"
-  },
+    "faction": "Cazadores de Estelaron",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "jade",
     "name": "Jade",
@@ -559,8 +2159,40 @@
       "element": "Cuantico",
       "pathType": "Erudición"
     },
-    "faction": "Corporación para la Paz Interastral"
-  },
+    "faction": "Corporación para la Paz Interastral",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "7-de-marzo-caceria",
     "name": "Siete de Marzo · Cacería",
@@ -570,8 +2202,40 @@
       "element": "Imaginario",
       "pathType": "Cacería"
     },
-    "faction": "Anónimos"
-  },
+    "faction": "Anónimos",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "yunli",
     "name": "Yunli",
@@ -581,8 +2245,40 @@
       "element": "Físico",
       "pathType": "Destrucción"
     },
-    "faction": ["Alianza Xianzhou", "El Zhuming de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Zhuming de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "jiaoqiu",
     "name": "Jiaoqiu",
@@ -592,8 +2288,40 @@
       "element": "Fuego",
       "pathType": "Nihilidad"
     },
-    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "moze",
     "name": "Moze",
@@ -603,8 +2331,40 @@
       "element": "Rayo",
       "pathType": "Cacería"
     },
-    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "feixiao",
     "name": "Feixiao",
@@ -614,8 +2374,40 @@
       "element": "Viento",
       "pathType": "Cacería"
     },
-    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou", "Generales Celestiales", "Seis Augurias"]
-  },
+    "faction": ["Alianza Xianzhou", "El Yaoqing de Xianzhou", "Generales Celestiales", "Seis Augurias"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "lingsha",
     "name": "Lingsha",
@@ -625,8 +2417,40 @@
       "element": "Fuego",
       "pathType": "Abundancia"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou", "Comisión de Alquimia"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou", "Comisión de Alquimia"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "rappa",
     "name": "Rappa",
@@ -636,8 +2460,40 @@
       "element": "Imaginario",
       "pathType": "Erudición"
     },
-    "faction": "Vigilantes de la Galaxia"
-  },
+    "faction": "Vigilantes de la Galaxia",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "sunday",
     "name": "Sunday",
@@ -647,8 +2503,40 @@
       "element": "Imaginario",
       "pathType": "Armonía"
     },
-    "faction": ["Colonipenal", "Anónimos"]
-  },
+    "faction": ["Colonipenal", "Anónimos"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "fugue",
     "name": "Fugue",
@@ -658,8 +2546,40 @@
       "element": "Fuego",
       "pathType": "Nihilidad"
     },
-    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"]
-  },
+    "faction": ["Alianza Xianzhou", "El Luofu de Xianzhou"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "sra-herta",
     "name": "Sra. Herta",
@@ -669,8 +2589,40 @@
       "element": "Hielo",
       "pathType": "Erudición"
     },
-    "faction": "Estación Espacial de Herta"
-  },
+    "faction": "Estación Espacial de Herta",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "aglaea",
     "name": "Aglaea",
@@ -680,8 +2632,40 @@
       "element": "Rayo",
       "pathType": "Reminiscencia"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "tribbie",
     "name": "Tribbie",
@@ -691,8 +2675,40 @@
       "element": "Cuantico",
       "pathType": "Armonía"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "midei",
     "name": "Midei",
@@ -702,8 +2718,40 @@
       "element": "Imaginario",
       "pathType": "Destrucción"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "castorice",
     "name": "Castorice",
@@ -713,8 +2761,40 @@
       "element": "Cuantico",
       "pathType": "Reminiscencia"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "anaxas",
     "name": "Anaxas",
@@ -724,8 +2804,40 @@
       "element": "Viento",
       "pathType": "Erudición"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "hyacine",
     "name": "Hyacine",
@@ -735,8 +2847,40 @@
       "element": "Viento",
       "pathType": "Reminiscencia"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "cifer",
     "name": "Cífer",
@@ -746,8 +2890,40 @@
       "element": "Cuantico",
       "pathType": "Nihilidad"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "fainon",
     "name": "Fainón",
@@ -757,8 +2933,40 @@
       "element": "Físico",
       "pathType": "Destrucción"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "saber",
     "name": "Saber",
@@ -768,8 +2976,40 @@
       "element": "Viento",
       "pathType": "Destrucción"
     },
-    "faction": "Otro Mundo"
-  },
+    "faction": "Otro Mundo",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "archer",
     "name": "Archer",
@@ -779,8 +3019,40 @@
       "element": "Cuantico",
       "pathType": "Cacería"
     },
-    "faction": "Otro Mundo"
-  },
+    "faction": "Otro Mundo",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "hysilens",
     "name": "Hysilens",
@@ -790,8 +3062,40 @@
       "element": "Físico",
       "pathType": "Nihilidad"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "ceridra",
     "name": "Céridra",
@@ -801,8 +3105,40 @@
       "element": "Viento",
       "pathType": "Armonía"
     },
-    "faction": "Amphoreus"
-  },
+    "faction": "Amphoreus",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "larganoche",
     "name": "Larganoche",
@@ -812,8 +3148,40 @@
       "element": "Hielo",
       "pathType": "Reminiscencia"
     },
-    "faction": ["Expreso Astral","Anónimos", "Amphoreus", "Herederos de Crisos", "Hijas puras de Anāsrava"]
-  },
+    "faction": ["Expreso Astral","Anónimos", "Amphoreus", "Herederos de Crisos", "Hijas puras de Anāsrava"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "dan-heng-permansor-terrae",
     "name": "Dan Heng · Permansor Terrae",
@@ -823,8 +3191,40 @@
       "element": "Físico",
       "pathType": "Conservación"
     },
-    "faction": ["Expreso Astral", "Anónimos", "Amphoreus", "Herederos de Crisos"]
-  },
+    "faction": ["Expreso Astral", "Anónimos", "Amphoreus", "Herederos de Crisos"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "cyrene",
     "name": "Cyrene",
@@ -834,8 +3234,40 @@
       "element": "Hielo",
       "pathType": "Reminiscencia"
     },
-    "faction": ["Amphoreus", "Herederos de Crisos", "Hijas puras de Anāsrava"]
-  },
+    "faction": ["Amphoreus", "Herederos de Crisos", "Hijas puras de Anāsrava"],
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "la-dalia",
     "name": "La Dalia",
@@ -845,8 +3277,40 @@
       "element": "Fuego",
       "pathType": "Nihilidad"
     },
-    "faction": "Incineradores"
-  },
+    "faction": "Incineradores",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "yao-guang",
     "name": "Yao Guang",
@@ -856,8 +3320,40 @@
       "element": "Viento",
       "pathType": "Exultación"
     },
-    "faction": "???"
-  },
+    "faction": "???",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    },
     {
     "id": "chispas",
     "name": "Chispas",
@@ -867,8 +3363,40 @@
       "element": "Fuego",
       "pathType": "Exultación"
     },
-    "faction": "Bufones Enmascarados"
-  }
+    "faction": "Bufones Enmascarados",
+      "skills": [
+        {
+          "type": "normal",
+          "name": "Ataque Normal",
+          "description": "Realiza hasta 5 disparos consecutivos con su arco.",
+          "icon": "/assets/images/gi/skills/amber_normal.png"
+        },
+        {
+          "type": "special",
+          "name": "Habilidad Especial",
+          "description": "Dispara un proyectil explosivo que inflige Pyro.",
+          "icon": "/assets/images/gi/skills/amber_special.png"
+        },
+        {
+          "type": "ultimate",
+          "name": "Habilidad Definitiva",
+          "description": "Llama a Baron Bunny que explota al enemigo.",
+          "icon": "/assets/images/gi/skills/amber_ultimate.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva A",
+          "description": "Reduce el consumo de resistencia al escalar paredes.",
+          "icon": "/assets/images/gi/skills/amber_passive.png"
+        },
+        {
+          "type": "passive",
+          "name": "Pasiva B",
+          "description": "Incrementa la precisión de los ataques cargados.",
+          "icon": "/assets/images/gi/skills/amber_passive2.png"
+        }
+      ]
+    }
   ],
   "lightcones": [],
   "relics": []

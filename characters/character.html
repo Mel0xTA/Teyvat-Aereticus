@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Character</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-900 text-slate-100 min-h-screen">
+
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-10">
+
+    <!-- HEADER -->
+    <section class="flex gap-6 items-center">
+      <img
+        id="character-portrait"
+        class="w-40 h-40 rounded-full object-cover border-4 border-slate-700"
+        alt="Portrait"
+      />
+
+      <div class="space-y-2">
+        <h1 id="character-name" class="text-3xl font-bold"></h1>
+
+        <div id="character-icons" class="flex gap-3 items-center"></div>
+
+        <p id="character-meta" class="text-sm text-slate-400"></p>
+      </div>
+    </section>
+
+    <!-- KIT -->
+    <section id="kit-container" class="space-y-6"></section>
+
+  </main>
+
+  <!-- CRÍTICO -->
+  <script src="character.js" defer></script>
+</body>
+</html>
