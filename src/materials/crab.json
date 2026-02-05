@@ -1,0 +1,11 @@
+{
+	"id": 100073,
+	"name": "Cangrejo",
+	"sortRank": 321,
+	"description": "Una criatura con caparazón que vive cerca del océano. Su carne tierna y deliciosa se utiliza para crear sabrosos platos.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Recolectar en lagos, orillas de ríos y playas"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"id": 100023,
+	"name": "Cecilia",
+	"sortRank": 311,
+	"description": "Una hermosa flor con un nombre muy bello. Solo crece donde soplan los vientos más fuertes, y es tan intangible como el corazón sincero de un alma sin ataduras.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Mondstadt",
+	"sources": [
+		"Recolectar en el Acantilado Estrellado",
+		"Plantar en la Relajatetera",
+		"Recolectar"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": 11203,
+	"name": "Mecaengranaje recto",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 150120,
+	"unlockRank": 5,
+	"resultCount": 1,
+	"moraCost": 25,
+	"recipe": [
+		{
+			"id": 112083,
+			"name": "Engranaje de malla",
+			"count": 3
+		}
+	]
+}

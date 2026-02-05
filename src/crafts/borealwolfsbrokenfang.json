@@ -1,0 +1,16 @@
+{
+	"id": 12005,
+	"name": "Colmillo roto de lobo boreal",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130009,
+	"unlockRank": 35,
+	"resultCount": 1,
+	"moraCost": 350,
+	"recipe": [
+		{
+			"id": 114006,
+			"name": "Diente roto de lobo boreal",
+			"count": 3
+		}
+	]
+}

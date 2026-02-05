@@ -1,0 +1,16 @@
+{
+	"id": 11032,
+	"name": "Ojo del caos",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 140069,
+	"unlockRank": 20,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 112048,
+			"name": "Eje del caos",
+			"count": 3
+		}
+	]
+}

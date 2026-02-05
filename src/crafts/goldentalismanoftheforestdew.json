@@ -1,0 +1,16 @@
+{
+	"id": 12030,
+	"name": "Talismán de oro del rocío",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130088,
+	"unlockRank": 45,
+	"resultCount": 1,
+	"moraCost": 1075,
+	"recipe": [
+		{
+			"id": 114039,
+			"name": "Talismán de plata del rocío",
+			"count": 3
+		}
+	]
+}

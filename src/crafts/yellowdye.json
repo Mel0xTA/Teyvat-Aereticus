@@ -1,0 +1,32 @@
+{
+	"id": 30005,
+	"name": "Tinte amarillo",
+	"filterText": "Material para fabricar decoración",
+	"sortOrder": 170040,
+	"unlockRank": 28,
+	"resultCount": 1,
+	"moraCost": 0,
+	"recipe": [
+		{
+			"id": 100051,
+			"name": "Baya",
+			"count": 1
+		}
+	],
+	"altrecipes": [
+		[
+			{
+				"id": 100058,
+				"name": "Cor lapis",
+				"count": 1
+			}
+		],
+		[
+			{
+				"id": 101231,
+				"name": "Jazmimpoluto",
+				"count": 1
+			}
+		]
+	]
+}

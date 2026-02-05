@@ -1,0 +1,15 @@
+{
+	"id": 101305,
+	"name": "Segmento de bambú",
+	"rarity": 1,
+	"sortRank": 330,
+	"description": "Segmento de bambú muy ligero y mucho más resistente de lo que parece. Emite una agradable fragancia.\nPuede utilizarse para fabricar decoraciones.",
+	"category": "WOOD",
+	"typeText": "Material",
+	"sources": [
+		"Recolectar en la naturaleza",
+		"Talando en la Llanura Bishui",
+		"#Comprar en la Tetetienda{NON_BREAK_SPACE}-{NON_BREAK_SPACE}Madera",
+		"Transformar madera"
+	]
+}

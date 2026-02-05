@@ -1,0 +1,13 @@
+{
+	"id": 101206,
+	"name": "Hongo marino",
+	"sortRank": 313,
+	"description": "Una curiosa especie natural que solo crece en algunos mares e islas. Aunque por su aspecto parece un hongo, en realidad está compuesto por la acumulación de secreciones de algunos seres vivos de cuerpo blando.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Inazuma",
+	"sources": [
+		"Recolectar en las costas de Inazuma",
+		"Plantar en la Relajatetera",
+		"Recolectar"
+	]
+}

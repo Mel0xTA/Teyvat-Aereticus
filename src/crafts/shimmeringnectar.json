@@ -1,0 +1,16 @@
+{
+	"id": 11025,
+	"name": "Néctar brillante",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 150060,
+	"unlockRank": 5,
+	"resultCount": 1,
+	"moraCost": 25,
+	"recipe": [
+		{
+			"id": 112038,
+			"name": "Néctar de Megaflora",
+			"count": 3
+		}
+	]
+}

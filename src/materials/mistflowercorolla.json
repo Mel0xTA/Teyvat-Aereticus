@@ -1,0 +1,12 @@
+{
+	"id": 100052,
+	"name": "Pistilo de flor helada",
+	"sortRank": 320,
+	"description": "Un pistilo de flor envuelto en hielo sólido. Incluso después de cortarlo, sigue desprendiendo frío.",
+	"category": "EXCHANGE",
+	"typeText": "Material",
+	"sources": [
+		"Recolectar en la naturaleza",
+		"Recolectar en el Viñedo del Amanecer"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": 11045,
+	"name": "Seda roja bordada",
+	"filterText": "Material de mejora de Personaje y Arma",
+	"sortOrder": 150100,
+	"unlockRank": 5,
+	"resultCount": 1,
+	"moraCost": 25,
+	"recipe": [
+		{
+			"id": 112065,
+			"name": "Satén rojo descolorido",
+			"count": 3
+		}
+	]
+}

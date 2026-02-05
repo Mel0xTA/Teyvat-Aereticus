@@ -1,0 +1,16 @@
+{
+	"id": 11023,
+	"name": "Insignia de cuervo plateada",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 150050,
+	"unlockRank": 5,
+	"resultCount": 1,
+	"moraCost": 25,
+	"recipe": [
+		{
+			"id": 112035,
+			"name": "Insignia de cuervo de bronce",
+			"count": 3
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": 10000032,
+	"name": "Huevo frito crujiente de Teyvat",
+	"rarity": 1,
+	"foodtype": "SPECIALTY",
+	"filterType": "COOK_FOOD_HEAL",
+	"filterText": "Platos que regeneran Vida",
+	"effect": "Revive a un personaje y restaura un 10% de la Vida Máx. más 150 pts. de Vida adicionales.",
+	"description": "La especialidad de Bennett. Por alguna razón, cada huevo frito que hace se le quema un poco alrededor de los bordes. Dicho esto, el crujiente quemado le da un sabor completamente nuevo al plato.",
+	"baseDishId": 1003,
+	"baseDishName": "Huevo frito de Teyvat",
+	"characterId": 10000032,
+	"characterName": "Bennett",
+	"ingredients": [
+		{
+			"id": 100062,
+			"name": "Huevo de pájaro",
+			"count": 1
+		}
+	]
+}

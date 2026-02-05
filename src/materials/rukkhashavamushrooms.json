@@ -1,0 +1,13 @@
+{
+	"id": 101213,
+	"name": "Champiñón rukkhashava",
+	"sortRank": 314,
+	"description": "Un hongo que crece en capas, como si de un mar de nubes se tratara. La mayoría de estos hongos extraños crecen en los troncos de los árboles situados en las zonas más profundas de la selva.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Sumeru",
+	"sources": [
+		"Recolectar en Ashaván",
+		"Recolectar en la Selva Lokapala",
+		"Recolectar"
+	]
+}

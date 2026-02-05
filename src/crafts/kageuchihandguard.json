@@ -1,0 +1,16 @@
+{
+	"id": 11029,
+	"name": "Guardamano gemelo",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 150070,
+	"unlockRank": 5,
+	"resultCount": 1,
+	"moraCost": 25,
+	"recipe": [
+		{
+			"id": 112044,
+			"name": "Guardamano viejo",
+			"count": 3
+		}
+	]
+}

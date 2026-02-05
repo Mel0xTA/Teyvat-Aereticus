@@ -1,0 +1,27 @@
+{
+	"id": 21011501,
+	"monsterId": 21011501,
+	"name": "Hilichurl Extraño",
+	"specialNames": [
+		"Abominación de la Mansión"
+	],
+	"monsterType": "MONSTER_ORDINARY",
+	"enemyType": "NORMAL",
+	"categoryType": "CODEX_SUBTYPE_HILICHURL",
+	"categoryText": "Hilichurls",
+	"description": "“Homu, Homu, mimi domu!”",
+	"rewardPreview": [
+		{
+			"id": 102,
+			"name": "EXP de Aventura"
+		},
+		{
+			"id": 202,
+			"name": "Mora"
+		},
+		{
+			"id": 100018,
+			"name": "Repollo"
+		}
+	]
+}

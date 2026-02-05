@@ -1,0 +1,16 @@
+{
+	"id": 15014,
+	"name": "Trozo de turquesa vayuda",
+	"filterText": "Material de ascensión de personaje",
+	"sortOrder": 110039,
+	"unlockRank": 35,
+	"resultCount": 1,
+	"moraCost": 900,
+	"recipe": [
+		{
+			"id": 104152,
+			"name": "Fragmento de turquesa vayuda",
+			"count": 3
+		}
+	]
+}

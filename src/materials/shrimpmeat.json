@@ -1,0 +1,13 @@
+{
+	"id": 100093,
+	"name": "Camarón",
+	"sortRank": 321,
+	"description": "Un camarón de gran tamaño procedente del mar. Muy nutritivo y con un increíble sabor.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Comprado en tiendas de Liyue",
+		"Comprado en tiendas de Inazuma",
+		"Comprando en tiendas de Sumeru"
+	]
+}

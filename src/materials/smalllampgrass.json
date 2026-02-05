@@ -1,0 +1,14 @@
+{
+	"id": 100055,
+	"name": "Lucetta",
+	"sortRank": 311,
+	"description": "Una hierba silvestre que emite luz por la noche. Utilizada en la cocina para realzar otros sabores.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Mondstadt",
+	"sources": [
+		"Recolectar en el Reino de los Lobos",
+		"Recolectar en el Bosque Susurrante",
+		"Plantar en la Relajatetera",
+		"Recolectar"
+	]
+}

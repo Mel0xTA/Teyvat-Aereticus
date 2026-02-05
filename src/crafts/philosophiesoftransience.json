@@ -1,0 +1,16 @@
+{
+	"id": 13014,
+	"name": "Filosofía de la transitoriedad",
+	"filterText": "Material de talento de personaje",
+	"sortOrder": 120059,
+	"unlockRank": 40,
+	"resultCount": 1,
+	"moraCost": 550,
+	"recipe": [
+		{
+			"id": 104321,
+			"name": "Guía de la transitoriedad",
+			"count": 3
+		}
+	]
+}

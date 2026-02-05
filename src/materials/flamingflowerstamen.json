@@ -1,0 +1,12 @@
+{
+	"id": 100053,
+	"name": "Pistilo de flor llameante",
+	"sortRank": 320,
+	"description": "El pistilo de una flor en llamas. Aunque se apagara, continuaría emitiendo calor.",
+	"category": "EXCHANGE",
+	"typeText": "Material",
+	"sources": [
+		"Recolectar en la naturaleza",
+		"Recolectar en el Templo de los Mil Vientos"
+	]
+}

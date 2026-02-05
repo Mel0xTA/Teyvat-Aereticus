@@ -1,0 +1,21 @@
+{
+	"id": 22038,
+	"name": "Cebo cítrico",
+	"filterText": "Cebo",
+	"sortOrder": 160050,
+	"unlockRank": 28,
+	"resultCount": 10,
+	"moraCost": 0,
+	"recipe": [
+		{
+			"id": 101230,
+			"name": "Burburanja",
+			"count": 1
+		},
+		{
+			"id": 100017,
+			"name": "Trigo",
+			"count": 1
+		}
+	]
+}

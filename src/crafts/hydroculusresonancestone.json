@@ -1,0 +1,26 @@
+{
+	"id": 22086,
+	"name": "Roca de resonancia de hydróculus",
+	"filterText": "Consumible",
+	"sortOrder": 100050,
+	"unlockRank": 10,
+	"resultCount": 1,
+	"moraCost": 500,
+	"recipe": [
+		{
+			"id": 101233,
+			"name": "Flor rociomarina",
+			"count": 5
+		},
+		{
+			"id": 101236,
+			"name": "Rosarcoíris",
+			"count": 5
+		},
+		{
+			"id": 101003,
+			"name": "Pedazo de cristal",
+			"count": 1
+		}
+	]
+}

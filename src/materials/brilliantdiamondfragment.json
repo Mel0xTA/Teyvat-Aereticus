@@ -1,0 +1,12 @@
+{
+	"id": 104102,
+	"name": "Trozo de diamante brillante",
+	"rarity": 3,
+	"sortRank": 12101,
+	"description": "Material de ascensión de personaje.\n“Bienvenid{F#a}{M#o} a este mundo”.",
+	"category": "AVATAR_MATERIAL",
+	"typeText": "Material de ascensión de personaje",
+	"sources": [
+		"Recompensa Rango de Aventura"
+	]
+}

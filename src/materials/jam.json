@@ -1,0 +1,11 @@
+{
+	"id": 110008,
+	"name": "Mermelada",
+	"sortRank": 322,
+	"description": "Un puré hecho de fruta y azúcar. Incluso una pequeña cantidad puede despertar fácilmente las papilas gustativas.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Procesar comida"
+	]
+}

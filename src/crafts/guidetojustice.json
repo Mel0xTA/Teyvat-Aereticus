@@ -1,0 +1,16 @@
+{
+	"id": 13027,
+	"name": "Guía de la justicia",
+	"filterText": "Material de talento de personaje",
+	"sortOrder": 120130,
+	"unlockRank": 30,
+	"resultCount": 1,
+	"moraCost": 175,
+	"recipe": [
+		{
+			"id": 104341,
+			"name": "Enseñanzas de la justicia",
+			"count": 3
+		}
+	]
+}

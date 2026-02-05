@@ -1,0 +1,46 @@
+{
+	"id": 30007,
+	"name": "Tinte azul",
+	"filterText": "Material para fabricar decoración",
+	"sortOrder": 170060,
+	"unlockRank": 28,
+	"resultCount": 1,
+	"moraCost": 0,
+	"recipe": [
+		{
+			"id": 100016,
+			"name": "Menta",
+			"count": 1
+		}
+	],
+	"altrecipes": [
+		[
+			{
+				"id": 100021,
+				"name": "Gancho de lobo",
+				"count": 1
+			}
+		],
+		[
+			{
+				"id": 101209,
+				"name": "Hongo fluorescente",
+				"count": 1
+			}
+		],
+		[
+			{
+				"id": 101234,
+				"name": "Marealga",
+				"count": 1
+			}
+		],
+		[
+			{
+				"id": 101249,
+				"name": "Quenepa",
+				"count": 1
+			}
+		]
+	]
+}

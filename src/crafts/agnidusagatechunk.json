@@ -1,0 +1,16 @@
+{
+	"id": 15002,
+	"name": "Trozo de ágata agnidus",
+	"filterText": "Material de ascensión de personaje",
+	"sortOrder": 109999,
+	"unlockRank": 35,
+	"resultCount": 1,
+	"moraCost": 900,
+	"recipe": [
+		{
+			"id": 104112,
+			"name": "Fragmento de ágata agnidus",
+			"count": 3
+		}
+	]
+}

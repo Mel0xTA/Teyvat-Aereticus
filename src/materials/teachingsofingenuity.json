@@ -1,0 +1,19 @@
+{
+	"id": 104332,
+	"name": "Enseñanzas del ingenio",
+	"rarity": 2,
+	"sortRank": 13111,
+	"description": "Material de mejora de talento.\nEl ingenio constituye las arterias del Reino de la Sabiduría y nace de una voluntad bondadosa.\nTal como reza el dicho “a árbol malo, frutos malos”, solo manteniendo una bondad firme se logrará impulsar un pensamiento ingenioso y deferente, un pensamiento que nunca manche el nombre de la sabiduría.",
+	"category": "AVATAR_MATERIAL",
+	"typeText": "Material de talento de personaje",
+	"dropDomainId": 4440,
+	"dropDomainName": "Dominio de la maestría: Dharani",
+	"daysOfWeek": [
+		"Martes",
+		"Viernes",
+		"Domingo"
+	],
+	"sources": [
+		"Canjear en la Tienda de paquetes"
+	]
+}

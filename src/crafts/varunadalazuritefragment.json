@@ -1,0 +1,16 @@
+{
+	"id": 15004,
+	"name": "Fragmento de lazurita varunada",
+	"filterText": "Material de ascensión de personaje",
+	"sortOrder": 110010,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 300,
+	"recipe": [
+		{
+			"id": 104121,
+			"name": "Pedacito de lazurita varunada",
+			"count": 3
+		}
+	]
+}

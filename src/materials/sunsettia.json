@@ -1,0 +1,11 @@
+{
+	"id": 100002,
+	"name": "Solsettia",
+	"sortRank": 90000,
+	"description": "Una fruta redonda y hermosa como la puesta de sol, abundante en todo Teyvat. Tiene un curioso aroma muy dulce y un alto valor energético.",
+	"category": "NOTICE_ADD_HP",
+	"typeText": "Comida",
+	"sources": [
+		"Recolectar en la naturaleza"
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": 20010201,
+	"monsterId": 20010201,
+	"name": "Slime Gigante Dendro",
+	"specialNames": [
+		"Elemento rodante"
+	],
+	"monsterType": "MONSTER_ORDINARY",
+	"enemyType": "NORMAL",
+	"categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+	"categoryText": "Seres elementales",
+	"description": "Un Slime que ha experimentado un cambio fundamental en su naturaleza debido a la acumulación del elemento Dendro.\nPero algunos creen que tal vez se trate de un Slime con un extraño parásito vegetal, ya que utiliza el camuflaje y el engaño para atrapar a sus presas, al estilo de la Megaflora. Desde este punto de vista, quizás los Slimes Dendro tengan propiedades medicinales especiales para algunas culturas.",
+	"investigation": {
+		"investigationId": 20,
+		"name": "Slime",
+		"categoryType": "Common",
+		"categoryText": "Normal",
+		"description": "Una criatura elemental de forma redondeada.\\nSe dice que los dulces hechos con Slimes de distintos tipos elementales tienen un sabor delicioso."
+	},
+	"rewardPreview": [
+		{
+			"id": 202,
+			"name": "Mora"
+		},
+		{
+			"id": 112004,
+			"name": "Esencia de Slime",
+			"count": 0.0448
+		},
+		{
+			"id": 112003,
+			"name": "Babas de Slime",
+			"count": 0.1792
+		},
+		{
+			"id": 112002,
+			"name": "Condensado de Slime",
+			"count": 0.6723
+		}
+	]
+}

@@ -161,3 +161,22 @@ footer {
     height: 100px;
   }
 }
+
+.color-subtitle {
+  color: #ffd780;
+  font-weight: 600;
+}
+
+.color-pyro {
+  color: #ff9999;
+}
+
+.skill-description,
+.passive-description {
+  line-height: 1.6;
+}
+
+em {
+  opacity: 0.85;
+  font-style: italic;
+}

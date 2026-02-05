@@ -1,0 +1,16 @@
+{
+	"id": 13009,
+	"name": "Guía del esfuerzo",
+	"filterText": "Material de talento de personaje",
+	"sortOrder": 120040,
+	"unlockRank": 30,
+	"resultCount": 1,
+	"moraCost": 175,
+	"recipe": [
+		{
+			"id": 104313,
+			"name": "Enseñanzas del esfuerzo",
+			"count": 3
+		}
+	]
+}

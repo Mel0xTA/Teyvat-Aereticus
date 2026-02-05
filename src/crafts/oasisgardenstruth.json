@@ -1,0 +1,16 @@
+{
+	"id": 12033,
+	"name": "Esencia del oasis exuberante",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130098,
+	"unlockRank": 45,
+	"resultCount": 1,
+	"moraCost": 1075,
+	"recipe": [
+		{
+			"id": 114043,
+			"name": "Lamento del oasis exuberante",
+			"count": 3
+		}
+	]
+}

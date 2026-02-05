@@ -1,0 +1,21 @@
+{
+	"id": 22007,
+	"name": "Resina concentrada",
+	"filterText": "Consumible",
+	"sortOrder": 100000,
+	"unlockRank": 10,
+	"resultCount": 1,
+	"moraCost": 100,
+	"recipe": [
+		{
+			"id": 100085,
+			"name": "Núcleo de cristal",
+			"count": 1
+		},
+		{
+			"id": 106,
+			"name": "Resina original",
+			"count": 60
+		}
+	]
+}

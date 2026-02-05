@@ -1,0 +1,16 @@
+{
+	"id": 11202,
+	"name": "Cristalización cromática",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 150109,
+	"unlockRank": 10,
+	"resultCount": 1,
+	"moraCost": 50,
+	"recipe": [
+		{
+			"id": 112081,
+			"name": "Fragmento extramarino",
+			"count": 3
+		}
+	]
+}

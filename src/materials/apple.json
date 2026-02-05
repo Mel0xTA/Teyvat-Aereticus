@@ -1,0 +1,11 @@
+{
+	"id": 100001,
+	"name": "Manzana",
+	"sortRank": 90000,
+	"description": "Crujiente y aromática. Deliciosa en crudo o para hacer vino.",
+	"category": "NOTICE_ADD_HP",
+	"typeText": "Comida",
+	"sources": [
+		"Recolectar en la naturaleza"
+	]
+}

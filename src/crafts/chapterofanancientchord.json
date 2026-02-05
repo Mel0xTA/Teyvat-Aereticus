@@ -1,0 +1,16 @@
+{
+	"id": 12037,
+	"name": "Pieza de serenata arcaica",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130120,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 114049,
+			"name": "Fragmento de serenata arcaica",
+			"count": 3
+		}
+	]
+}

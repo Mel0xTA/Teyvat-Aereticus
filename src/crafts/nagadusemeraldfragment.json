@@ -1,0 +1,16 @@
+{
+	"id": 15007,
+	"name": "Fragmento de esmeralda nagadus",
+	"filterText": "Material de ascensión de personaje",
+	"sortOrder": 110020,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 300,
+	"recipe": [
+		{
+			"id": 104131,
+			"name": "Pedacito de esmeralda nagadus",
+			"count": 3
+		}
+	]
+}

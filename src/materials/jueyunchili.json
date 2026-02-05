@@ -1,0 +1,13 @@
+{
+	"id": 100027,
+	"name": "Chile de Jueyun",
+	"sortRank": 312,
+	"description": "Una planta picante originaria de Liyue. El simple hecho de olerla ya hace que uno tenga calor y sed.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Liyue",
+	"sources": [
+		"Recolectar en la Aldea Chingtsé",
+		"Plantar en la Relajatetera",
+		"Recolectar"
+	]
+}

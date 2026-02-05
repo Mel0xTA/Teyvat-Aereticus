@@ -1,0 +1,16 @@
+{
+	"id": 12031,
+	"name": "Gracia del oasis exuberante",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130100,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 114041,
+			"name": "Reminiscencia del oasis exuberante",
+			"count": 3
+		}
+	]
+}

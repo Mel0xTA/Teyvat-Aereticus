@@ -1,0 +1,12 @@
+{
+	"id": 101208,
+	"name": "Fruto amakumo",
+	"sortRank": 313,
+	"description": "El fruto de la planta amakumo, que crece en la Isla Seirai. Si te lo acercas a la oreja, podrás oír la minúscula corriente eléctrica que restalla en su interior.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Inazuma",
+	"sources": [
+		"Recolectar en la Isla Seirai",
+		"Recolectar"
+	]
+}

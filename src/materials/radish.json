@@ -1,0 +1,11 @@
+{
+	"id": 100014,
+	"name": "Rábano",
+	"sortRank": 321,
+	"description": "Rico en fibra y nutrientes, y muy fácil de cultivar y cosechar.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Recolectar en la naturaleza"
+	]
+}

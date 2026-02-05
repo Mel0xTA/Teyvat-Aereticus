@@ -1,0 +1,16 @@
+{
+	"id": 15017,
+	"name": "Trozo de jade shivada",
+	"filterText": "Material de ascensión de personaje",
+	"sortOrder": 110049,
+	"unlockRank": 35,
+	"resultCount": 1,
+	"moraCost": 900,
+	"recipe": [
+		{
+			"id": 104162,
+			"name": "Fragmento de jade shivada",
+			"count": 3
+		}
+	]
+}

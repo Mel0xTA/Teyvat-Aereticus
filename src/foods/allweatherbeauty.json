@@ -1,0 +1,26 @@
+{
+	"id": 10000047,
+	"name": "Belleza multiclima",
+	"rarity": 1,
+	"foodtype": "SPECIALTY",
+	"filterType": "COOK_FOOD_HEAL",
+	"filterText": "Platos que regeneran Vida",
+	"effect": "Restaura un 16% de la Vida Máx. y 1350 pts. de Vida al personaje seleccionado.",
+	"description": "La especialidad de Kaedehara Kazuha. Hecho con pescado secado en el barco. Kazuha asegura que son peces totalmente ordinarios. Pero este sabor... Debe de ser la definición de una naturaleza libre y universal, ¿no?",
+	"baseDishId": 1202,
+	"baseDishName": "Pescado seco estofado",
+	"characterId": 10000047,
+	"characterName": "Kaedehara Kazuha",
+	"ingredients": [
+		{
+			"id": 100084,
+			"name": "Pescado",
+			"count": 1
+		},
+		{
+			"id": 100075,
+			"name": "Sal",
+			"count": 1
+		}
+	]
+}

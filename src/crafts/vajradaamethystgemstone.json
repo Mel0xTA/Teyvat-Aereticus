@@ -1,0 +1,16 @@
+{
+	"id": 15012,
+	"name": "Amatista vajrada",
+	"filterText": "Material de ascensión de personaje",
+	"sortOrder": 110028,
+	"unlockRank": 45,
+	"resultCount": 1,
+	"moraCost": 2700,
+	"recipe": [
+		{
+			"id": 104143,
+			"name": "Trozo de amatista vajrada",
+			"count": 3
+		}
+	]
+}

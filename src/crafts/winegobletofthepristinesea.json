@@ -1,0 +1,16 @@
+{
+	"id": 12043,
+	"name": "Copa de vino del mar impoluto",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130140,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 114057,
+			"name": "Copa rota del mar impoluto",
+			"count": 3
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": 12013,
+	"name": "Perdigones de mercurio",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130040,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 114017,
+			"name": "Perdigones de plomo",
+			"count": 3
+		}
+	]
+}

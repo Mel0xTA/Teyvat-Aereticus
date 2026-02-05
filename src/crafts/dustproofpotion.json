@@ -1,0 +1,21 @@
+{
+	"id": 14006,
+	"name": "Poción antipolvo",
+	"filterText": "Poción",
+	"sortOrder": 200050,
+	"unlockRank": 5,
+	"resultCount": 1,
+	"moraCost": 100,
+	"recipe": [
+		{
+			"id": 100072,
+			"name": "Alas de mariposa",
+			"count": 1
+		},
+		{
+			"id": 100058,
+			"name": "Cor lapis",
+			"count": 1
+		}
+	]
+}

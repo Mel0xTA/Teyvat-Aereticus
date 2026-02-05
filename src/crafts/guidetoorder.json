@@ -1,0 +1,16 @@
+{
+	"id": 13029,
+	"name": "Guía del orden",
+	"filterText": "Material de talento de personaje",
+	"sortOrder": 120140,
+	"unlockRank": 30,
+	"resultCount": 1,
+	"moraCost": 175,
+	"recipe": [
+		{
+			"id": 104344,
+			"name": "Enseñanzas del orden",
+			"count": 3
+		}
+	]
+}

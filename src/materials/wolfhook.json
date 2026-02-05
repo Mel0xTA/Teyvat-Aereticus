@@ -1,0 +1,12 @@
+{
+	"id": 100021,
+	"name": "Gancho de lobo",
+	"sortRank": 311,
+	"description": "Una baya con espinas que a menudo se adhiere a la piel de los lobos. Si la miras de cerca, casi podrás escuchar el eco de los gritos de los lobos en el bosque.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Mondstadt",
+	"sources": [
+		"Recolectar en el Reino de los Lobos",
+		"Recolectar"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": 11007,
+	"name": "Flecha afilada",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 150030,
+	"unlockRank": 5,
+	"resultCount": 1,
+	"moraCost": 25,
+	"recipe": [
+		{
+			"id": 112011,
+			"name": "Flecha robusta",
+			"count": 3
+		}
+	]
+}

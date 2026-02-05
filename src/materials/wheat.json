@@ -1,0 +1,12 @@
+{
+	"id": 100017,
+	"name": "Trigo",
+	"sortRank": 321,
+	"description": "Un cereal dorado y tostado por el sol. Para usarlo, necesita ser molido hasta convertirse en harina.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Recolectar en la naturaleza",
+		"Comprado en tiendas"
+	]
+}

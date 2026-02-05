@@ -1,0 +1,12 @@
+{
+	"id": 100018,
+	"name": "Repollo",
+	"sortRank": 321,
+	"description": "Un vegetal con capas. Dicen que originalmente era una planta ornamental. Su aspecto al ser cocido es bastante agradable.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Recolectar en la naturaleza",
+		"Comprado en tiendas"
+	]
+}

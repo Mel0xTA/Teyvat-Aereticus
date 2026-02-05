@@ -1,0 +1,16 @@
+{
+	"id": 12001,
+	"name": "Escombro de la ciudad de Decarabian",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130000,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 114001,
+			"name": "Fragmento de azulejo de Decarabian",
+			"count": 3
+		}
+	]
+}

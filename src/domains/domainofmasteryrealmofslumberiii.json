@@ -1,0 +1,59 @@
+{
+	"id": 4232,
+	"name": "Dominio de la maestría: Reino del letargo III",
+	"regionId": 1,
+	"regionName": "Mondstadt",
+	"entranceId": 29,
+	"entranceName": "Cañón del olvido",
+	"domainType": "UI_ABYSSUS_AVATAR_PROUD",
+	"domainText": "Material de mejora de talento",
+	"description": "Una energía masiva Cryo corre a través de este antiguo altar de sacrificios helado.\nObtendrás materiales de mejora de talento si eres capaz de superar esta prueba.",
+	"recommendedLevel": 71,
+	"recommendedElements": [
+		"Pyro"
+	],
+	"daysOfWeek": [
+		"Miércoles",
+		"Sábado",
+		"Domingo"
+	],
+	"unlockRank": 36,
+	"rewardPreview": [
+		{
+			"id": 102,
+			"name": "EXP de Aventura",
+			"count": 100
+		},
+		{
+			"id": 202,
+			"name": "Mora",
+			"count": 2050
+		},
+		{
+			"id": 105,
+			"name": "EXP de Amistad",
+			"count": 20
+		},
+		{
+			"id": 104308,
+			"name": "Guía de la poesía"
+		},
+		{
+			"id": 104307,
+			"name": "Enseñanzas de la poesía"
+		}
+	],
+	"disorder": [
+		"Todos los miembros del equipo obtienen un 75% de Bono de Daño Pyro."
+	],
+	"monsterList": [
+		{
+			"id": 20010801,
+			"name": "Slime Cryo"
+		},
+		{
+			"id": 20010901,
+			"name": "Slime Gigante Cryo"
+		}
+	]
+}

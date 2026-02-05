@@ -1,0 +1,11 @@
+{
+	"id": 100072,
+	"name": "Alas de mariposa",
+	"sortRank": 320,
+	"description": "Alas de colores brillantes. El polvo que cae de ellas brilla sin cesar. ¿Quizás esto es lo que les permite volar?",
+	"category": "EXCHANGE",
+	"typeText": "Material",
+	"sources": [
+		"Recolectar en la naturaleza"
+	]
+}

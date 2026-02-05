@@ -1,0 +1,12 @@
+{
+	"id": 101228,
+	"name": "Viparyas",
+	"sortRank": 320,
+	"description": "Una flor sin semillas.\nSolo con que la tierra las recuerde de nuevo, las viparyas volverán a florecer.",
+	"category": "EXCHANGE",
+	"typeText": "Material",
+	"sources": [
+		"Recolectar en la naturaleza",
+		"Recolectar en Vanarana"
+	]
+}

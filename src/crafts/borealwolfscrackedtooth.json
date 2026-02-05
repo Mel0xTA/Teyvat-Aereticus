@@ -1,0 +1,16 @@
+{
+	"id": 12004,
+	"name": "Diente roto de lobo boreal",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130010,
+	"unlockRank": 25,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 114005,
+			"name": "Diente de leche de lobo boreal",
+			"count": 3
+		}
+	]
+}

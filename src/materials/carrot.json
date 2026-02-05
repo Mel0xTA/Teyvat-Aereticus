@@ -1,0 +1,11 @@
+{
+	"id": 100013,
+	"name": "Zanahoria",
+	"sortRank": 321,
+	"description": "Un vegetal sano y nutritivo. Fácil de cultivar, cosechar y con un buen sabor.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Recolectar en la naturaleza"
+	]
+}

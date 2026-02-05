@@ -1,0 +1,16 @@
+{
+	"id": 112034,
+	"name": "Insignia del oficial",
+	"rarity": 3,
+	"sortRank": 10611,
+	"description": "Una insignia para identificar a los oficiales. Los Fatui poseen un ejército colosal, por lo que los que alcanzaron este rango deben tener algo extraordinario.",
+	"category": "AVATAR_MATERIAL",
+	"typeText": "Material de mejora de personaje y arma",
+	"sources": [
+		"Obtenido de Soldados Fatui (Niv. 60+)",
+		"Obtenido de algunos Recaudadores Fatui (Niv. 60+)",
+		"Obtenido de algunas Magas de Cicin (Niv. 60+)",
+		"Canjear Polvo estelar: sintetizar tras canjear",
+		"Cantidad sintetizable: {0}"
+	]
+}

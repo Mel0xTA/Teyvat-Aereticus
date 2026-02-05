@@ -1,0 +1,16 @@
+{
+	"id": 11021,
+	"name": "Insignia del sargento",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 150040,
+	"unlockRank": 15,
+	"resultCount": 1,
+	"moraCost": 25,
+	"recipe": [
+		{
+			"id": 112032,
+			"name": "Insignia del recluta",
+			"count": 3
+		}
+	]
+}

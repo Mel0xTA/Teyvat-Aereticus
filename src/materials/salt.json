@@ -1,0 +1,11 @@
+{
+	"id": 100075,
+	"name": "Sal",
+	"sortRank": 321,
+	"description": "Un condimento salado. Solo poniendo la cantidad precisa se mejorará el sabor de la comida a la perfección.",
+	"category": "EXCHANGE",
+	"typeText": "Ingrediente culinario",
+	"sources": [
+		"Comprado en tiendas"
+	]
+}

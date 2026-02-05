@@ -1,0 +1,16 @@
+{
+	"id": 12011,
+	"name": "Reliquia de Guyun",
+	"filterText": "Material de ascensión de arma",
+	"sortOrder": 130029,
+	"unlockRank": 35,
+	"resultCount": 1,
+	"moraCost": 350,
+	"recipe": [
+		{
+			"id": 114014,
+			"name": "Piedra reluciente de Guyun",
+			"count": 3
+		}
+	]
+}

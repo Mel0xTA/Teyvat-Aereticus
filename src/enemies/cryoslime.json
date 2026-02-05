@@ -1,0 +1,41 @@
+{
+	"id": 20010801,
+	"monsterId": 20010801,
+	"name": "Slime Cryo",
+	"specialNames": [
+		"Elemento rodante"
+	],
+	"monsterType": "MONSTER_ORDINARY",
+	"enemyType": "NORMAL",
+	"categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+	"categoryText": "Seres elementales",
+	"description": "Un monstruo de pequeño tamaño formado a partir de los depósitos del elemento Cryo presentes en la naturaleza.\nUnos competidores malintencionados extendieron el rumor de que el Viñedo del Amanecer utilizaba Slimes Cryo para controlar la temperatura de sus bodegas y garantizar la calidad del vino.",
+	"investigation": {
+		"investigationId": 20,
+		"name": "Slime",
+		"categoryType": "Common",
+		"categoryText": "Normal",
+		"description": "Una criatura elemental de forma redondeada.\\nSe dice que los dulces hechos con Slimes de distintos tipos elementales tienen un sabor delicioso."
+	},
+	"rewardPreview": [
+		{
+			"id": 202,
+			"name": "Mora"
+		},
+		{
+			"id": 112004,
+			"name": "Esencia de Slime",
+			"count": 0.0448
+		},
+		{
+			"id": 112003,
+			"name": "Babas de Slime",
+			"count": 0.1792
+		},
+		{
+			"id": 112002,
+			"name": "Condensado de Slime",
+			"count": 0.6723
+		}
+	]
+}

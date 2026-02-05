@@ -1,0 +1,16 @@
+{
+	"id": 11016,
+	"name": "Caldera del caos",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 140029,
+	"unlockRank": 20,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 112024,
+			"name": "Circuito del caos",
+			"count": 3
+		}
+	]
+}

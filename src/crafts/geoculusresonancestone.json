@@ -1,0 +1,26 @@
+{
+	"id": 22002,
+	"name": "Roca de resonancia de geóculus",
+	"filterText": "Consumible",
+	"sortOrder": 100030,
+	"unlockRank": 10,
+	"resultCount": 1,
+	"moraCost": 500,
+	"recipe": [
+		{
+			"id": 100058,
+			"name": "Cor lapis",
+			"count": 5
+		},
+		{
+			"id": 100030,
+			"name": "Lirio de cristal",
+			"count": 5
+		},
+		{
+			"id": 101003,
+			"name": "Pedazo de cristal",
+			"count": 1
+		}
+	]
+}

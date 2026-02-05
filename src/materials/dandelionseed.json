@@ -1,0 +1,12 @@
+{
+	"id": 100057,
+	"name": "Semilla de diente de león",
+	"sortRank": 311,
+	"description": "Una semilla que vuela con el viento. Aunque no tenga alas para volar lejos, tiene la esperanza de poder ser desplazada por el viento a algún sitio remoto.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Mondstadt",
+	"sources": [
+		"Recolectar en las puertas de Mondstadt",
+		"Recolectar"
+	]
+}

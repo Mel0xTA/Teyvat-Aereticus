@@ -1,0 +1,12 @@
+{
+	"id": 101203,
+	"name": "Médula cristalizada",
+	"sortRank": 313,
+	"description": "Cristal que contiene la energía maligna de los tatarigami. Si se utiliza este material al fundir metales, aumentará considerablemente su fortaleza y dureza.",
+	"category": "EXCHANGE",
+	"typeText": "Objeto típico de Inazuma",
+	"sources": [
+		"Recolectar en la Isla Yashiori",
+		"Recolectar"
+	]
+}

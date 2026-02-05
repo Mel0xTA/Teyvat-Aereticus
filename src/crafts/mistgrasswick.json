@@ -1,0 +1,16 @@
+{
+	"id": 11018,
+	"name": "Lámpara de hierba neblinosa",
+	"filterText": "Material de mejora de personaje y arma",
+	"sortOrder": 140039,
+	"unlockRank": 20,
+	"resultCount": 1,
+	"moraCost": 125,
+	"recipe": [
+		{
+			"id": 112027,
+			"name": "Hierba neblinosa",
+			"count": 3
+		}
+	]
+}
